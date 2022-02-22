@@ -3,15 +3,44 @@
     margin: 0;
     padding: 0;
 }
-
+/*body*/
 body
 {
-    background-color: beige;
+    background-color: #fff;
 }
-
+/*header*/
 header .header
 {
     width: 100%;
     height: 7.5vh;
-    background-color: aqua;
+    background-color: black;
+}
+
+header .header nav li  
+{
+    display: flex;
+}
+
+header .header nav li ul
+{
+    padding: 25px;
+}
+
+header .header nav li .ul1
+{
+    margin-left: 40%;
+}
+
+header .header nav li ul a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17.5px;
+}
+
+header .header nav li a .snackbar__logo     
+{
+    width: 132px;
+    height: auto;
+    margin-left: 150px;
 }
