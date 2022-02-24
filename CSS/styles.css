@@ -55,8 +55,9 @@ header .header nav li a .snackbar__logo
 .container__homepage .snacks__pic
 {
     width: 100%;
-    height: 50vh;
-    background-color: aquamarine;
+    height: 65vh;
+    background-image: url('/Assets/afbeeldingen/winkelcentrum.png');
+    background-repeat: no-repeat;
 }
 
 /*menu*/
