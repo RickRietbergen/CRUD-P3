@@ -4,6 +4,8 @@
     padding: 0;
     /*google font*/
     font-family: 'Nanum Gothic', sans-serif;
+    /*smooth scroll*/
+    scroll-behavior: smooth;
 }
 /*body*/
 body
@@ -97,6 +99,7 @@ header .header nav li a .snackbar__logo
     height: 100vh;
     box-shadow: 0px 0px 30px rgba(255,255,255);
     background-color: #404147;
+    border-top: solid 2px blue;
 }
 .container__form
 {
@@ -104,6 +107,8 @@ header .header nav li a .snackbar__logo
     height: 100vh;
     box-shadow: 0px 0px 30px rgba(0,0,0);
     background-color: black;
+    border-top: solid 2px blue;
+
 }
 /*contact*/
 .container__contact
