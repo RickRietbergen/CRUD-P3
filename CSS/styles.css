@@ -2,6 +2,8 @@
 {
     margin: 0;
     padding: 0;
+    /*google font*/
+    font-family: 'Nanum Gothic', sans-serif;
 }
 /*body*/
 body
@@ -13,7 +15,9 @@ header .header
 {
     width: 100%;
     height: 7.5vh;
-    background-color: black;
+    background-color: transparent;
+    position: fixed;
+    
 }
 
 header .header nav li  
@@ -25,10 +29,10 @@ header .header nav li ul
 {
     padding: 25px;
 }
-
+/*right side of navbar*/
 header .header nav li .ul1
 {
-    margin-left: 50%;
+    margin-left: 57.5%;
 }
 
 header .header nav li ul a
@@ -38,48 +42,74 @@ header .header nav li ul a
     font-size: 17.5px;
 }
 
+header .header nav li ul a:hover
+{
+    color: aquamarine;
+}
+
 header .header nav li a .snackbar__logo     
 {
-    width: 100px;
+    width: 80px;
     height: auto;
-    margin-left: 50px;
+    margin-top: 7.5px;
+    margin-left: 80px;
 }
 /*homepage*/
 .container__homepage
 {
     width: 100%;
-    height: 92.5vh;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255);
+    height: 100vh;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255);
 }
-
-.container__homepage .snacks__pic
+/*homepage pic*/
+.container__homepage .burger__pic
 {
     width: 100%;
-    height: 65vh;
-    background-image: url('/Assets/afbeeldingen/winkelcentrum.png');
+    height: 100vh;
+    background-image: url('/Assets/afbeeldingen/burger.png');
+    /*nice scroll effect*/
+    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
 }
+/*informatie*/
+.container__about
+{
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0px 0px 20px rgba(0,0,0);    
+    background-color: black;
+}
+
+.container__about .txt__about
+{
+    width: 30%;
+    height: 30vh;
+    color: #fff;
+    background-color: aqua;
+}
+
 
 /*menu*/
 .container__menu
 {
     width: 100%;
     height: 100vh;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
-    background-color: black;
+    box-shadow: 0px 0px 30px rgba(255,255,255);
+    background-color: #404147;
 }
-
-/*informatie*/
-.container__informatie
+.container__form
 {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    box-shadow: 0px 0px 30px rgba(0,0,0);
+    background-color: black;
 }
 /*contact*/
 .container__contact
 {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    box-shadow: 0px 0px 30px rgba(255,255,255);
+    background-color: #404147;
 }
