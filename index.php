@@ -14,7 +14,7 @@
   </head>
   <body>
     <?php
-      include_once("header.php");
+      //include_once("header.php");
     ?>
     <main>
         <div class="container__homepage" id="home">
