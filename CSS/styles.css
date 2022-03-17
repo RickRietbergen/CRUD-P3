@@ -1,148 +1,156 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    /*google font*/
-    font-family: 'Nanum Gothic', sans-serif;
-    /*smooth scroll*/
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  /*google font*/
+  font-family: "Nanum Gothic", sans-serif;
+  /*smooth scroll*/
+  scroll-behavior: smooth;
 }
 /*body*/
-body
-{
-    background-color: #fff;
+body {
+  background-color: #fff;
 }
 /*header*/
-header .header
-{
-    width: 100%;
-    height: 7.5vh;
-    background-color: transparent;
-    position: fixed;
-    
+header .header {
+  width: 100%;
+  height: 7.5vh;
+  background-color: transparent;
+  position: fixed;
 }
 
-header .header nav li  
-{
-    display: flex;
+header .header nav li {
+  display: flex;
 }
 
-header .header nav li ul
-{
-    padding: 25px;
+header .header nav li ul {
+  padding: 25px;
 }
 /*right side of navbar*/
-header .header nav li .ul1
-{
-    margin-left: 57.5%;
+header .header nav li .ul1 {
+  margin-left: 55%;
 }
 
-header .header nav li ul a
-{
-    text-decoration: none;
-    color: white;
-    font-size: 17.5px;
+header .header nav li ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 17.5px;
 }
 
-header .header nav li ul a:hover
-{
-    color: aquamarine;
+header .header nav li ul a:hover {
+  color: aquamarine;
 }
 
-header .header nav li a .snackbar__logo     
-{
-    width: 80px;
-    height: auto;
-    margin-top: 7.5px;
-    margin-left: 80px;
+header .header nav li a .snackbar__logo {
+  width: 80px;
+  height: auto;
+  margin-top: 7.5px;
+  margin-left: 80px;
 }
 /*homepage*/
-.container__homepage
-{
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255);
+.container__homepage {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 10px rgba(0,0,0);
 }
 /*homepage pic*/
-.container__homepage .burger__pic
-{
-    width: 100%;
-    height: 100vh;
-    background-image: url('/Assets/afbeeldingen/burger.png');
-    /*nice scroll effect*/
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+.container__homepage .burger__pic {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Assets/afbeeldingen/burger.png");
+  /*nice scroll effect*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*informatie*/
-.container__about
-{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0px 0px 10px rgba(0,0,0);    
-    background-color: black;
-    border-top: solid 2px lightgray;
+.container__about {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 10px rgba(255,255,255);
+  background-color: #404147;
+  border-top: solid 2px lightgray;
 }
 
-.container__about .txt__title__about
-{
-    font-size: 35px;
-    margin-bottom: 0px;
+.container__about .txt__title__about {
+  font-size: 35px;
+  margin-bottom: 0px;
 }
 
-.container__about .txt__about
-{
-    width: 40%;
-    height: 40vh;
-    margin-top: 10vh;
-    margin-left: 10%;
-    word-spacing: 2px;
-    line-height: 2;
-    color: #fff;
+.container__about .txt__about {
+  width: 40%;
+  height: 40vh;
+  margin-top: 10vh;
+  margin-left: 10%;
+  word-spacing: 2px;
+  line-height: 2;
+  color: #fff;
 }
 
-.container__about .pic__about
-{
-    width: 40%;
-    height: 40%;
-    margin-top: 10vh;
-    margin-left: 2.5%;
-    background-color: purple;
+.container__about .pic__about {
+  width: 40%;
+  height: 40%;
+  margin-top: 10vh;
+  margin-left: 2.5%;
+  background-color: purple;
 }
 
 /*menu*/
-.container__menu
-{
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0px 0px 10px rgba(255,255,255);
-    background-color: #404147;
-    border-top: solid 2px lightgray;
-}
-.container__form
-{
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0px 0px 10px rgba(0,0,0);
-    background-color: black;
-    border-top: solid 2px lightgray;
+.container__menu {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 10px rgba(0,0,0);
+  background-color: black;
+  border-top: solid 2px lightgray;
 }
 
-.container__werken__bigsnack
+.container__menu .div__menu__select
 {
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0px 0px 10px rgba(255,255,255);
-    background-color: #404147;
-    border-top: solid 2px lightgray;
+  width: 20%;
+  height: 100vh;
+}
+
+.container__menu .div__menu__select .menu__title__catogorie
+{
+  font-size: 30px;
+  color: #fff;
+}
+
+.container__menu .menu__keuze__catogorie
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*zet text decoration op a*/
+
+.container__menu .div__scroll__food
+{
+  width: 60%;
+  height: 100vh;
+  overflow: auto;
+  background-color: #001537;
+}
+
+.container__menu .div__winkelwagen
+{
+  width: 20%;
+  height: 100vh;
+}
+
+.container__werken__bigsnack {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 10px rgba(255,255,255);
+  background-color: #404147;
+  border-top: solid 2px lightgray;
 }
 /*contact*/
-.container__contact
-{
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0px 0px 10px rgba(0,0,0);
-    background-color: black;
-    border-top: solid 2px lightgrey;
+.container__contact {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 10px rgba(0,0,0);
+  background-color: black;
+  border-top: solid 2px lightgrey;
 }

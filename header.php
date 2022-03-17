@@ -18,10 +18,7 @@
           <a href="#menu">menu</a>
         </ul>
         <ul>
-          <a href="#form">formulier</a>
-        </ul>
-        <ul>
-          <a href="#werken">werken bij BigSnack</a>
+          <a href="#werken">werken</a>
         </ul>
         <ul>
           <a href="#contact">contact us</a>
