@@ -53,7 +53,7 @@ header .header nav li a .snackbar__logo {
   box-shadow: 0px 0px 10px rgba(0,0,0);
 }
 /*homepage pic*/
-.container__homepage .burger__pic {
+.container__homepage .burger__pic { 
   width: 100%;
   height: 100vh;
   background-image: url("../Assets/afbeeldingen/burger.png");
@@ -74,24 +74,44 @@ header .header nav li a .snackbar__logo {
 
 .container__about .txt__title__about {
   font-size: 35px;
-  margin-bottom: 0px;
 }
 
-.container__about .txt__about {
+.container__about .txt__about__box {
   width: 40%;
-  height: 40vh;
-  margin-top: 10vh;
-  margin-left: 10%;
+  height: 80vh;
+  margin-top: 7.5vh;
+  margin-left: 5%;
   word-spacing: 2px;
   line-height: 2;
   color: #fff;
 }
 
-.container__about .pic__about {
+.container__about .txt__about__box .txt__pic__about{
+  width: 750px;
+  height: 375px;
+  margin-top: 15%;
+  border-radius: 20px;
+  background-color: aqua;
+}
+
+.container__about .pic__about__box .title__margin__about{
+  margin-top: 20px;
+}
+
+.container__about .pic__about__box{
   width: 40%;
-  height: 40%;
-  margin-top: 10vh;
-  margin-left: 2.5%;
+  height: 80vh;
+  margin-top: 7.5vh;
+  margin-left: 7.5%;
+  word-spacing: 2px;
+  line-height: 2;
+  color: #fff;
+}
+
+.container__about .pic__about__box .pic__about {
+  width: 750px;
+  height: 375px;
+  border-radius: 20px;
   background-color: purple;
 }
 
@@ -109,21 +129,33 @@ header .header nav li a .snackbar__logo {
 {
   width: 20%;
   height: 100vh;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .container__menu .div__menu__select .menu__title__catogorie
 {
-  font-size: 30px;
+  font-size: 27.5px;
+  margin-bottom: 25px;
   color: #fff;
 }
 
 .container__menu .menu__keuze__catogorie
 {
   text-decoration: none;
+  line-height: 1.75;
   color: #fff;
 }
 
-/*zet text decoration op a*/
+.container__menu .menu__keuze__catogorie a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.container__menu .menu__keuze__catogorie a p
+{
+  width: 100px;
+}
 
 .container__menu .div__scroll__food
 {

@@ -14,7 +14,8 @@
   </head>
   <body>
     <?php
-      //include_once("header.php");
+      include_once("header.php");
+      require_once("connect.php");
     ?>
     <main>
         <div class="container__homepage" id="home">
@@ -25,16 +26,27 @@
         </div>
 
         <div class="container__about" id="about">
-          <div class="txt__about">
+          <div class="txt__about__box">
             <div class="txt__title__about">
               <h2>Title</h2>
             </div>
             <div class="txt__info__about">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis libero adipisci. Iusto nulla hic quo vero mollitia voluptate libero dolorem dicta magni sequi accusamus quibusdam recusandae natus, ducimus adipisci architecto ipsum harum beatae earum quisquam minima rem eaque doloribus ipsam. Necessitatibus error ipsam, rem mollitia iusto nisi quia eos eius ducimus omnis est dignissimos facilis optio architecto nesciunt itaque ab corrupti incidunt perferendis repellat, aliquid ipsum id. Inventore, quae. Excepturi placeat modi iste eius ipsam quae, dolorem adipisci inventore libero ipsum, eos vero, laborum aliquid illo quis magnam ad at! Odit, illum. Adipisci dolorum ipsum sed placeat, eos sequi.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod illum inventore atque. Placeat quod doloremque natus fugit eligendi temporibus cupiditate, at cum, fuga architecto vero, recusandae accusantium ipsam iusto possimus beatae quasi. Id vero molestiae aut quasi. Officia debitis cupiditate voluptatum illum cumque minima laborum provident quasi qui ipsam sed repellat quidem necessitatibus dignissimos neque id et error hic laudantium, dolore ipsum! Nobis tenetur laboriosam, alias voluptates recusandae doloribus? Incidunt fugiat eos illo laboriosam nemo?
+            </div>
+            <div class="txt__pic__about">
+
             </div>
           </div>
-          <div class="pic__about">
+          <div class="pic__about__box">
+            <div class="pic__about">
 
+            </div>
+            <div class="title__margin__about txt__title__about">
+              <h2>Title</h2>
+            </div>
+            <div class="txt__info__about">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod illum inventore atque. Placeat quod doloremque natus fugit eligendi temporibus cupiditate, at cum, fuga architecto vero, recusandae accusantium ipsam iusto possimus beatae quasi. Id vero molestiae aut quasi. Officia debitis cupiditate voluptatum illum cumque minima laborum provident quasi qui ipsam sed repellat quidem necessitatibus dignissimos neque id et error hic laudantium, dolore ipsum! Nobis tenetur laboriosam, alias voluptates recusandae doloribus? Incidunt fugiat eos illo laboriosam nemo?
+            </div>
           </div>
         </div>
 
@@ -42,7 +54,7 @@
           <div class="div__menu__select">
             <div class="menu__title__catogorie">
               <h2>
-                title
+                Categorieën
               </h2>
             </div>
             <div class="menu__keuze__catogorie">
@@ -64,7 +76,23 @@
           </div>
 
           <div class="div__scroll__food">
-            <a href=""><h3>test</h3></a>
+              <section id="#snacks">
+                <h2>Snacks</h2>
+                
+              </section>
+              <section id="#friet"></section>
+              <section id="#hamburgers"></section>
+              <section id="#pizza"></section>
+              <section id="#menu"></section>
+              <section id="#schotel"></section>
+              <section id="#kapsalon"></section>
+              <section id="#broodjes"></section>
+              <section id="#durums"></section>
+              <section id="#sauzen"></section>
+              <section id="#salade"></section>
+              <section id="#ijs"></section>
+              <section id="#shake"></section>
+              <section id="#dranken"></section>                         
           </div>
           <div class="div__winkelwagen">
 
@@ -78,6 +106,20 @@
         <div class="container__contact" id="contact">
 
         </div>
+        <!--
+        <?php
+          $sql = "SELECT * FROM album";
+          $stmt = $connect->prepare($sql);
+          
+          $stmt->execute();
+          $result = $stmt->fetchALL(); 
+
+          foreach($result as $res)
+          {
+            echo $res['titel']."<br>4";
+          }
+        ?>
+        -->
     </main>
     <footer>
 
