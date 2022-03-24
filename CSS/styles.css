@@ -226,6 +226,14 @@ header .header nav li a .snackbar__logo {
   background-color: #29292d;
   border-style: none;
   color: #fff;
+  margin-bottom: 20px;
+}
+
+.container__contact form #label__discription{
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 39.25%;
   margin-bottom: 15px;
 }
 
@@ -236,6 +244,7 @@ header .header nav li a .snackbar__logo {
   border-style: none;
   color: #fff;
   margin-bottom: 15px;
+  resize: none;
 }
 
 .container__contact form #click__submit{
@@ -245,4 +254,5 @@ header .header nav li a .snackbar__logo {
   color: #fff;
   padding: 15px;
   margin-right: 56%;
+  border-radius: 20px;
 }
