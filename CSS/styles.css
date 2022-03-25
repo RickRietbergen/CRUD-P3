@@ -165,6 +165,21 @@ header .header nav li a .snackbar__logo {
   background-color: #001537;
 }
 
+.container__menu .div__scroll__food .title__menu h2{
+  font-size: 30px;
+  margin-left: 45%;
+  color: #fff;
+}
+
+.container__menu .div__scroll__food section{
+  color: #fff;
+}
+
+.container__menu .div__scroll__food section img{
+  width: 175px;
+  height: 175px;
+}
+
 .container__menu .div__winkelwagen
 {
   width: 20%;
@@ -181,7 +196,6 @@ header .header nav li a .snackbar__logo {
   color: #fff;
   border-radius: 5px;
 }
-
 
 .container__contact h2{
   display: flex;

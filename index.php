@@ -86,10 +86,19 @@
         </div>
 
         <div class="div__scroll__food">
+          <div class="title__menu">
+            <h2>Menu Kaart</h2>
+          </div>
           <section id="#snacks">
-            <h2>Snacks</h2>
+            <div class="frikandel">
+              <img src="Assets/afbeeldingen/placeholder.png" alt="placeholder">
+              <p id="naam__frikandel">frikandel</p>
+              <p id="prijs__frikandel">$2.00</p>
+            </div>
           </section>
-          <section id="#friet"></section>
+          <section id="#friet">
+
+          </section>
           <section id="#hamburgers"></section>
           <section id="#pizza"></section>
           <section id="#menu"></section>
@@ -103,7 +112,10 @@
           <section id="#shake"></section>
           <section id="#dranken"></section>
         </div>
-        <div class="div__winkelwagen"></div>
+
+        <div class="div__winkelwagen">
+
+        </div>
       </div>
 
       <div class="container__contact" id="contact">
@@ -141,6 +153,7 @@
         </form>
       </div>
       <!--
+        laten zien van de database `album`, titels
         <?php
           $sql = "SELECT * FROM album";
           $stmt = $connect->prepare($sql);

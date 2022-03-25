@@ -13,3 +13,8 @@ een product update
 product verwijderen
 
 logout
+---------------------
+<?php>
+	echo '<img scr="images/bestand' . $reslut['title'] . '.png" />;
+?>
+---------------------

@@ -1,0 +1,90 @@
+INSERT INTO `menu` (`id`, `product_name`, `prijs`, `voorraad`, `categorie`) VALUES
+( , `kipfrikandel`, `2.00`, `100`, `snacks`),
+( , `friet zonder`, `2.25`, `100`, `friet`),
+( , `friet mayonaise`, `2.75`, `100`, `friet`),
+( , `friet curry`, `2.75`, `100`, `friet`),
+( , `friet pindasaus`, `3.25`, `100`, `friet`),
+( , `friet speciaal`, `3.25`, `100`, `friet`),
+( , `friet oorlog`, `3.25`, `100`, `friet`),
+( , `waterfiets`, `5.75`, `100`, `waterfiets`),
+( , `waterfiets groot`, `6.50`, `100`, `waterfiets`),
+( , `gezinszak friet 2 personen`, `4.50`, `100`, `gezinszak friet`),
+( , `gezinszak friet 3 personen`, `6.00`, `100`, `gezinszak friet`),
+( , `gezinszak friet 4 personen`, `7.25`, `100`, `gezinszak friet`),
+( , `gezinszak friet 5 personen`, `8.50`, `100`, `gezinszak friet`),
+
+INSERT INTO `menu` (`product_name`,`prijs`,`voorraad`,`categorie`) VALUES
+
+(`kipfrikandel`, `2,00`, `100`, `snacks`),
+(`friet zonder`, `2.25`, `100`, `friet`),
+(`friet mayonaise`, `2.75`, `100`, `friet`),
+(`friet curry`, `2.75`, `100`, `friet`),
+(`friet pindasaus`, `3.25`, `100`, `friet`),
+(`friet speciaal`, `3.25`, `100`, `friet`),
+(`friet oorlog`, `3.25`, `100`, `friet`),
+(`waterfiets`, `5.75`, `100`, `waterfiets`),
+(`waterfiets groot`, `6.50`, `100`, `waterfiets`),
+(`gezinszak friet 2 personen`, `4.50`, `100`, `gezinszak friet`),
+(`gezinszak friet 3 personen`, `6.00`, `100`, `gezinszak friet`),
+(`gezinszak friet 4 personen`, `7.25`, `100`, `gezinszak friet`),
+(`gezinszak friet 5 personen`, `8.50`, `100`, `gezinszak friet`);
+--------------------
+haakjes waren niet goed!!!
+-----------------------------------------------------------------------------------------------
+INSERT INTO menu(
+    product_name,
+    prijs,
+    voorraad,
+    categorie
+)
+VALUES(
+    'kipfrikandel',
+    '2.00',
+    '100',
+    'snacks'
+),('friet zonder', '2.25', '100', 'friet'),(
+    'friet mayonaise',
+    '2.75',
+    '100',
+    'friet'
+),('friet curry', '2.75', '100', 'friet'),(
+    'friet pindasaus',
+    '3.25',
+    '100',
+    'friet'
+),(
+    'friet speciaal',
+    '3.25',
+    '100',
+    'friet'
+),('friet oorlog', '3.25', '100', 'friet'),(
+    'waterfiets',
+    '5.75',
+    '100',
+    'waterfiets'
+),(
+    'waterfiets groot',
+    '6.50',
+    '100',
+    'waterfiets'
+),(
+    'gezinszak friet 2 personen',
+    '4.50',
+    '100',
+    'gezinszak friet'
+),(
+    'gezinszak friet 3 personen',
+    '6.00',
+    '100',
+    'gezinszak friet'
+),(
+    'gezinszak friet 4 personen',
+    '7.25',
+    '100',
+    'gezinszak friet'
+),(
+    'gezinszak friet 5 personen',
+    '8.50',
+    '100',
+    'gezinszak friet'
+);
