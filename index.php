@@ -19,6 +19,12 @@
     <?php
       include_once("header.php");
       require_once("connect.php");
+
+      //connect to database
+      $sql = "SELECT * FROM menu";
+      $stmt = $connect->prepare($sql);
+      $stmt-> execute();
+      $result = $stmt->fetchALL();
     ?>
     <main>
       <div class="container__homepage" id="home">

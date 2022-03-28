@@ -27,7 +27,7 @@ header .header nav li ul {
 }
 /*right side of navbar*/
 header .header nav li .ul1 {
-  margin-left: 55%;
+  margin-left: 80%;
 }
 
 header .header nav li ul a {
@@ -165,14 +165,23 @@ header .header nav li a .snackbar__logo {
   background-color: #001537;
 }
 
-.container__menu .div__scroll__food .title__menu h2{
-  font-size: 30px;
-  margin-left: 45%;
+.container__menu .div__scroll__food .title__items{
+  width: 100%;
+  height: 5%;
+}
+
+.container__menu .div__scroll__food .title__items h2{
+  margin-left: 42.5%;
+  font-size: 40px;
+  color: #fff;
+}
+
+.container__menu .div__scroll__food .menu__items{
   color: #fff;
 }
 
 .container__menu .div__scroll__food section{
-  color: #fff;
+  display: flex;
 }
 
 .container__menu .div__scroll__food section img{
@@ -217,6 +226,7 @@ header .header nav li a .snackbar__logo {
   margin-left: 39.25%;
   margin-bottom: 10px;
 }
+
 .container__contact form #input__fullname{
   width: 60%;
   padding: 10px;

@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'webshop';
+$db = 'webshopmenu';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -15,7 +15,7 @@ $opt = [
 try
 {
     $connect = new PDO($dsn, $user, $pass, $opt);
-    echo "Verbinding is gemaakt";
+    // echo "Verbinding is gemaakt";
 }
 catch (PDOExeption $e)
 {

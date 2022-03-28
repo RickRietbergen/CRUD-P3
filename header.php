@@ -18,9 +18,6 @@
           <a href="#menu">menu</a>
         </ul>
         <ul>
-          <a href="#werken">werken</a>
-        </ul>
-        <ul>
           <a href="#contact">contact us</a>
         </ul>
       </li>
