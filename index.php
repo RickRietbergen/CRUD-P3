@@ -50,7 +50,7 @@
           <div class="txt__pic__about"></div>
         </div>
         <div class="pic__about__box">
-          <div class="pic__about">hoi</div>
+          <div class="pic__about"></div>
           <div class="title__margin__about txt__title__about">
             <h2>Title</h2>
           </div>
@@ -101,6 +101,19 @@
               <p id="naam__frikandel">frikandel</p>
               <p id="prijs__frikandel">$2.00</p>
             </div>
+
+            <div class="frikandel">
+              <img src="Assets/afbeeldingen/placeholder.png" alt="placeholder">
+              <p id="naam__frikandel">frikandel</p>
+              <p id="prijs__frikandel">$2.00</p>
+            </div>
+
+            <div class="frikandel">
+              <img src="Assets/afbeeldingen/placeholder.png" alt="placeholder">
+              <p id="naam__frikandel">frikandel</p>
+              <p id="prijs__frikandel">$2.00</p>
+            </div>
+
           </section>
           <section id="#friet">
 
