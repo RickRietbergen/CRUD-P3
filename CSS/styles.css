@@ -156,13 +156,14 @@ header .header nav li a .snackbar__logo {
 {
   width: 100px;
 }
-
+/*select categorie*/
 .container__menu .div__scroll__food
 {
-  width: 70%;
+  width: 90%;
   height: 100vh;
   overflow: auto;
   background-color: #001537;
+  color: #fff;
 }
 
 .container__menu .div__scroll__food .title__items{
@@ -175,24 +176,24 @@ header .header nav li a .snackbar__logo {
   font-size: 40px;
   color: #fff;
 }
-
-.container__menu .div__scroll__food .menu__items{
-  color: #fff;
-}
-
+/*food choice*/
 .container__menu .div__scroll__food section{
   display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.container__menu .div__scroll__food section .product{
+  margin: 25px;
+}
+
+.container__menu .div__scroll__food section .product p{
+  text-align: center;
 }
 
 .container__menu .div__scroll__food section img{
   width: 175px;
   height: 175px;
-}
-
-.container__menu .div__winkelwagen
-{
-  width: 20%;
-  height: 100vh;
 }
 
 /*contact*/

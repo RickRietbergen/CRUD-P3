@@ -74,20 +74,20 @@
             <h2>Categorieën</h2>
           </div>
           <div class="menu__keuze__catogorie">
-            <a href="#snacks"><p>Snacks</p></a>
-            <a href="#friet"><p>Friet</p></a>
-            <a href="#hamburgers"><p>Hamburgers</p></a>
-            <a href="#pizza"><p>Pizza</p></a>
-            <a href="#menu"><p>Menu</p></a>
-            <a href="#schotel"><p>Schotel</p></a>
-            <a href="#kapsalon"><p>Kapsalon</p></a>
-            <a href="#broodjes"><p>Broodjes</p></a>
-            <a href="#durums"><p>Durums</p></a>
-            <a href="#sauzen"><p>Sauzen</p></a>
-            <a href="#salade"><p>Salade</p></a>
-            <a href="#ijs"><p>ijs</p></a>
-            <a href="#shake"><p>Shake</p></a>
-            <a href="#dranken"><p>dranken</p></a>
+            <a href="#snacks">Snacks</a>
+            <a href="#friet">Friet</a>
+            <a href="#waterfiets">Waterfiets</a>
+            <a href="#gezinszakken friet">Gezinszakken Friet</a>
+            <a href="#kipsnacks">Kipsnacks</a>
+            <a href="#hamburgers">Hamburgers</a>
+            <a href="#kapsalon">Pizza</a>
+            <a href="#menus">Menu's</a>
+            <a href="#broodjes">Broodjes</a>
+            <a href="#durums">Durums</a>
+            <a href="#sauzen">Sauzen</a>
+            <a href="#ijs">ijs<</a>
+            <a href="#milkshake">Milkshakes</a>
+            <a href="#dranken">Dranken</a>
           </div>
         </div>
 
@@ -95,45 +95,244 @@
           <div class="title__menu">
             <h2>Menu Kaart</h2>
           </div>
-          <section id="#snacks">
-            <div class="frikandel">
-              <img src="Assets/afbeeldingen/placeholder.png" alt="placeholder">
-              <p id="naam__frikandel">frikandel</p>
-              <p id="prijs__frikandel">$2.00</p>
-            </div>
-
-            <div class="frikandel">
-              <img src="Assets/afbeeldingen/placeholder.png" alt="placeholder">
-              <p id="naam__frikandel">frikandel</p>
-              <p id="prijs__frikandel">$2.00</p>
-            </div>
-
-            <div class="frikandel">
-              <img src="Assets/afbeeldingen/placeholder.png" alt="placeholder">
-              <p id="naam__frikandel">frikandel</p>
-              <p id="prijs__frikandel">$2.00</p>
-            </div>
-
+          <section id="snacks">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "snacks"){
+                  ?>
+                  <div class="product">
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie snacks">
+                    <p id="naam__frikandel"><?php echo $res["product_name"]?></p>
+                    <p id="prijs__frikandel"><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
           </section>
-          <section id="#friet">
-
+          <section id="friet">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "friet"){
+                  ?>
+                  <div class="product">
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie friet">
+                    <p id="naam__frikandel"><?php echo $res["product_name"]?></p>
+                    <p id="prijs__frikandel"><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
           </section>
-          <section id="#hamburgers"></section>
-          <section id="#pizza"></section>
-          <section id="#menu"></section>
-          <section id="#schotel"></section>
-          <section id="#kapsalon"></section>
-          <section id="#broodjes"></section>
-          <section id="#durums"></section>
-          <section id="#sauzen"></section>
-          <section id="#salade"></section>
-          <section id="#ijs"></section>
-          <section id="#shake"></section>
-          <section id="#dranken"></section>
-        </div>
-
-        <div class="div__winkelwagen">
-
+          <section id="waterfiets">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "waterfiets"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie waterfiets">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="gezinszakkenfriet">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "gezinszak friet"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie gezinszak friet">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="kipsnacks">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "kipsnacks"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie kipsnacks">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="hamburgers">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "hamburgers"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie hamburgers">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="pizza">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "pizza"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="menus">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "menus"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie menu's">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="broodjes">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "broodjes"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="durums">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "durums"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="sauzen">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "sauzen"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="ijs">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "ijs"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie ijs">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="milkshake">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "milkshake"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie milkshake">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
+          <section id="dranken">
+            <?php 
+              foreach($result as $res){
+                if($res["categorie"] == "dranken"){
+                  ?>               
+                  <div class="product">                     
+                    <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie dranken">
+                    <p><?php echo $res["product_name"]?></p>
+                    <p><?php echo $res["prijs"]?></p>
+                  </div>
+                  <?php
+                }
+                ?>
+                <?php
+              }
+            ?>
+          </section>
         </div>
       </div>
 
