@@ -17,18 +17,21 @@
   </head>
   <body>
     <?php
-      include_once("header.php");
-      require_once("connect.php");
+      // include_once("header.php");
+      // require_once("connect.php");
 
-      //connect to database
-      $sql = "SELECT * FROM menu";
-      $stmt = $connect->prepare($sql);
-      $stmt-> execute();
-      $result = $stmt->fetchALL();
+      // //connect to database
+      // $sql = "SELECT * FROM menu";
+      // $stmt = $connect->prepare($sql);
+      // $stmt-> execute();
+      // $result = $stmt->fetchALL();
     ?>
     <main>
       <div class="container__homepage" id="home">
-        <div class="burger__pic"></div>
+        <div class="burger__pic">
+          <p class="titel">Welkom bij de</p>
+          <p class="titel_name">BigSnack</p>
+        </div>
       </div>
 
       <div class="container__about" id="about">
