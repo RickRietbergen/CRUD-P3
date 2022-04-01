@@ -33,6 +33,8 @@
                 <th>Prijs</th>
                 <th>Voorraad</th>
                 <th>Categorie</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
             <tr>
               <?php
@@ -45,6 +47,8 @@
                         <td><?php echo $res["prijs"]?></td>
                         <td><?php echo $res["voorraad"]?></td>
                         <td><?php echo $res["categorie"]?></td>
+                        <td><a href="" class="btn btn-admin">Edit</a></td>
+                        <td><a href="" class="btn btn-admin">Delete</a></td>
                     </tr>
                 <?php
                 }

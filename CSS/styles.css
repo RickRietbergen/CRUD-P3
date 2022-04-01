@@ -345,3 +345,14 @@ td {
 .admin-body .header-none {
 	display: none;
 }
+/*button css*/
+.btn {
+  padding: 7.5px;
+  background-color: #001537;
+  border-radius: 10px;
+}
+.btn .but-admin {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
