@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <!--link css-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+<body class="admin-body">
+    <?php
+      //include header, connection to database, footer.
+      $page = 'admin';
+      include_once("includes/header.php");
+      require_once("includes/connect.php");
+
+      //connect to database
+      $sql = "SELECT * FROM menu";
+      $stmt = $connect->prepare($sql);
+      $stmt-> execute();
+      $result = $stmt->fetchALL();
+    ?>
+    <main class="admin-main">
+
+        <h2>Admin Panel Big Snack</h2>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Product_name</th>
+                <th>Picture</th>
+                <th>Prijs</th>
+                <th>Voorraad</th>
+                <th>Categorie</th>
+            </tr>
+            <tr>
+              <?php
+                foreach($result as $res){
+                    ?>
+                    <tr>
+                        <td><?php echo $res["ID"]?></td>
+                        <td><?php echo $res["product_name"]?></td>
+                        <td><?php echo $res["picture"]?></td>
+                        <td><?php echo $res["prijs"]?></td>
+                        <td><?php echo $res["voorraad"]?></td>
+                        <td><?php echo $res["categorie"]?></td>
+                    </tr>
+                <?php
+                }
+              ?>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+</html>

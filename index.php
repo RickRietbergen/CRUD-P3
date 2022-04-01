@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head>  
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,8 +17,9 @@
   </head>
   <body>
     <?php
-      include_once("header.php");
-      require_once("connect.php");
+      //include header, connection to database, footer.
+      include_once("includes/header.php");
+      require_once("includes/connect.php");
 
       //connect to database
       $sql = "SELECT * FROM menu";
@@ -88,7 +89,7 @@
             <a href="#broodjes">Broodjes</a>
             <a href="#durums">Durums</a>
             <a href="#sauzen">Sauzen</a>
-            <a href="#ijs">ijs<</a>
+            <a href="#ijs">ijs</a>
             <a href="#milkshake">Milkshakes</a>
             <a href="#dranken">Dranken</a>
           </div>
