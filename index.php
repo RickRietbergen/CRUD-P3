@@ -20,6 +20,9 @@
       //include header, connection to database, footer.
       include_once("includes/header.php");
       require_once("includes/connect.php");
+      /**
+      * @var PDO $connect
+      */
 
       //connect to database
       $sql = "SELECT * FROM menu";
@@ -107,7 +110,7 @@
                   <div class="product">
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie snacks">
                     <p id="naam__frikandel"><?php echo $res["product_name"]?></p>
-                    <p id="prijs__frikandel"><?php echo $res["prijs"]?></p>
+                    <p id="prijs__frikandel"><?php echo ["prijs"]?></p>
                   </div>
                   <?php
                 }
@@ -343,7 +346,7 @@
       <div class="container__contact" id="contact">
         <h2>Contact Us</h2>
 
-        <form method="post" action="index.html">
+        <form method="post" action="submit_contact.php">
           <label id="label__fullname" for="fullname">Full Name</label>
           <input
             id="input__fullname"
@@ -379,7 +382,6 @@
         <?php
           $sql = "SELECT * FROM album";
           $stmt = $connect->prepare($sql);
-          
           $stmt->execute();
           $result = $stmt->fetchALL(); 
 

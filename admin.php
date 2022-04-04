@@ -14,6 +14,9 @@
       $page = 'admin';
       include_once("includes/header.php");
       require_once("includes/connect.php");
+      /**
+      * @var PDO $connect
+      */
 
       //connect to database
       $sql = "SELECT * FROM menu";
@@ -48,7 +51,7 @@
                         <td><?php echo $res["voorraad"]?></td>
                         <td><?php echo $res["categorie"]?></td>
                         <td><a href="" class="btn btn-admin">Edit</a></td>
-                        <td><a href="" class="btn btn-admin">Delete</a></td>
+                        <td><a href="admin_delete.php?ID=<?php echo $res["ID"] ?>" class="btn btn-admin">Delete</a></td>
                     </tr>
                 <?php
                 }
