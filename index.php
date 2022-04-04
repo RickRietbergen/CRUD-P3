@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project</title>
     <!--link css-->
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/styles.css"/>
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -110,7 +110,7 @@
                   <div class="product">
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie snacks">
                     <p id="naam__frikandel"><?php echo $res["product_name"]?></p>
-                    <p id="prijs__frikandel"><?php echo ["prijs"]?></p>
+                    <p id="prijs__frikandel"><?php echo $res["prijs"]?></p>
                   </div>
                   <?php
                 }
@@ -377,6 +377,11 @@
           <input id="click__submit" type="submit" value="submit" />
         </form>
       </div>
+
+      <?php
+        include_once("includes/footer.php");
+      ?>
+
       <!--
         laten zien van de database `album`, titels
         <?php
@@ -392,6 +397,5 @@
         ?>
         -->
     </main>
-    <footer></footer>
   </body>
 </html>
