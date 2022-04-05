@@ -205,13 +205,14 @@ footer #footer-all {
   color: #fff;
 }
 
-.container__menu .div__scroll__food .title__items {
+.container__menu .div__scroll__food .title__menu {
   width: 100%;
   height: 5%;
 }
 
-.container__menu .div__scroll__food .title__items h2 {
+.container__menu .div__scroll__food .title__menu h2 {
   margin-left: 42.5%;
+  margin-top: 50px;
   font-size: 40px;
   color: #fff;
 }
@@ -231,8 +232,12 @@ footer #footer-all {
 }
 
 .container__menu .div__scroll__food section .product .shoppingCart {
-  width: 25px;
-  height: 25px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
 }
 
 .container__menu .div__scroll__food section img {
@@ -275,11 +280,12 @@ footer #footer-all {
 
 .container__contact form #input__fullname {
   width: 60%;
-  padding: 10px;
+  padding: 15px;
   background-color: #29292d;
   border-style: none;
   color: #fff;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .container__contact form #label__email {
@@ -292,11 +298,12 @@ footer #footer-all {
 
 .container__contact form #input__email {
   width: 60%;
-  padding: 10px;
+  padding: 15px;
   background-color: #29292d;
   border-style: none;
   color: #fff;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .container__contact form #label__discription {
@@ -309,12 +316,13 @@ footer #footer-all {
 
 .container__contact form #input__discription {
   width: 60%;
-  padding: 10px;
+  padding: 15px;
   background-color: #29292d;
   border-style: none;
   color: #fff;
   margin-bottom: 15px;
   resize: none;
+  border-radius: 5px;
 }
 
 .container__contact form #click__submit {
