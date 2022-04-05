@@ -12,7 +12,7 @@
     <main class="admin-update">
         <h2>Edit Row</h2>
         <form action="">
-            <label for="">Product Name:</label>
+`            <label for="">Product Name:</label>
             <input
                 class="edit-product-all"
                 id="edit-product-name"

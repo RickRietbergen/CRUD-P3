@@ -21,10 +21,11 @@ $(document).ready(function () {
       alert("Please fill all fields.");
       return false;
     }
+    console.log(productName);
 
     $.ajax({
       type: "POST",
-      url: "../PHP/edit_db.php",
+      url: "PHP/edit_db.php",
       data: {
         //edit_db.php , var opgeslagen hierboven.
         ID: ID,
