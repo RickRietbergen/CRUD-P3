@@ -190,6 +190,7 @@ footer #footer-all {
 }
 
 .container__menu .menu__keuze__catogorie a {
+  padding: 5px;
   text-decoration: none;
   color: #fff;
 }
@@ -258,7 +259,7 @@ footer #footer-all {
 
 .container__contact h2 {
   display: flex;
-  font-size: 25px;
+  font-size: 40px;
   margin-top: 50px;
   justify-content: center;
 }

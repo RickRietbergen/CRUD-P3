@@ -84,12 +84,12 @@
             <a href="#snacks">Snacks</a>
             <a href="#friet">Friet</a>
             <a href="#waterfiets">Waterfiets</a>
-            <a href="#gezinszakken friet">Gezinszakken Friet</a>
+            <a href="#gezinszakkenfriet friet">Gezinszakken Friet</a>
             <a href="#kipsnacks">Kipsnacks</a>
             <a href="#hamburgers">Hamburgers</a>
-            <a href="#kapsalon">Pizza</a>
+            <a href="#pizza">Pizza</a>
             <a href="#menus">Menu's</a>
-            <a href="#broodjes">Broodjes</a>
+            <a href="#menus">Broodjes</a>
             <a href="#durums">Durums</a>
             <a href="#sauzen">Sauzen</a>
             <a href="#ijs">ijs</a>
