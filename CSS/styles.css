@@ -55,6 +55,7 @@ footer #footer-all {
 
 
 
+
 /* footer {
 	width: 100%;
 	height: 5vh;
@@ -346,11 +347,11 @@ footer #footer-all {
   justify-content: center;
   border-collapse: collapse;
 }
-
+/*even tr num has a backgr. color*/
 .admin-main tr:nth-child(even) {
   background-color: #404147;
 }
-
+/*admin page border*/
 .admin-main tr,
 th,
 td {
@@ -362,25 +363,35 @@ td {
 .admin-body .header-none {
 	display: none;
 }
-/*button css*/
-.btn {
-  padding: 7.5px;
-  background-color: #001537;
-  border-radius: 10px;
-}
-.btn .but-admin {
-  display: flex;
+/*admin page button css*/
+.admin-main tr td .btn-style-admin {
   text-decoration: none;
   color: #fff;
 }
-
-/*admin-deleted*/
-.admin-deleted .deleted-info {
+/*admin edit page*/
+.admin-update form {
   display: flex;
-  justify-content: center;
-  padding: 30px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.admin-deleted h2 {
+.admin-update h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;  
+}
+
+.admin-update form .edit-product-all {
+  width: 40%;
+}
+
+/*admin-deleted page*/
+.admin-main .admin-deleted h2 {
+  display: flex;
+  justify-content: center;
   margin-left: 5%;
+}
+
+.admin-main .admin-deleted .deleted-info {
+  padding: 30px;
 }

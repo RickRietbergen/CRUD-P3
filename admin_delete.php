@@ -33,7 +33,7 @@
 ?>
 <main class="admin-deleted">
     <?php
-    var_dump($result);
+    // var_dump($result);
         foreach($result as $res){
             if(isset($res["ID"])){
             ?>
