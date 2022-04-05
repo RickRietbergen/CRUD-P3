@@ -111,6 +111,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie snacks">
                     <p id="naam__frikandel"><?php echo $res["product_name"]?></p>
                     <p id="prijs__frikandel"><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -128,6 +129,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie friet">
                     <p id="naam__frikandel"><?php echo $res["product_name"]?></p>
                     <p id="prijs__frikandel"><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -145,6 +147,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie waterfiets">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -162,6 +165,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie gezinszak friet">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -179,6 +183,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie kipsnacks">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -196,6 +201,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie hamburgers">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -213,6 +219,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -230,6 +237,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie menu's">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -247,6 +255,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -264,6 +273,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -281,6 +291,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie pizza's">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -298,6 +309,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie ijs">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -315,6 +327,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie milkshake">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -332,6 +345,7 @@
                     <img src="<?php echo $res["picture"]?>" alt="alle foto's van de categorie dranken">
                     <p><?php echo $res["product_name"]?></p>
                     <p><?php echo $res["prijs"]?></p>
+                    <img src="Assets/afbeeldingen/shoppingCart.png" class="shoppingCart" alt="shopping Cart icon">
                   </div>
                   <?php
                 }
@@ -346,7 +360,7 @@
       <div class="container__contact" id="contact">
         <h2>Contact Us</h2>
 
-        <form method="post" action="submit_contact.php">
+        <form method="post" action="PHP\submit_contact.php">
           <label id="label__fullname" for="fullname">Full Name</label>
           <input
             id="input__fullname"

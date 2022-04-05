@@ -1,7 +1,7 @@
 <?php
 
 //connect to database
-require_once("includes/connect.php");
+require_once("../includes/connect.php");
 /**
 * @var PDO $connect
 */

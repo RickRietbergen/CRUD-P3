@@ -230,6 +230,11 @@ footer #footer-all {
   text-align: center;
 }
 
+.container__menu .div__scroll__food section .product .shoppingCart {
+  width: 25px;
+  height: 25px;
+}
+
 .container__menu .div__scroll__food section img {
   width: 175px;
   height: 175px;
