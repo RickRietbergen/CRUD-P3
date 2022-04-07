@@ -50,13 +50,16 @@
                         <td><?php echo $res["prijs"]?></td>
                         <td><?php echo $res["voorraad"]?></td>
                         <td><?php echo $res["categorie"]?></td>
-                        <td><a href="admin_update.php?ID=<?php echo $res["ID"] ?>" class="btn-style-admin">Edit</a></td>
-                        <td><a href="admin_delete.php?ID=<?php echo $res["ID"] ?>" class="btn-style-admin">Delete</a></td>
+                        <td><a href="admin_update.php?ID=<?php echo $res["ID"] ?>" class="btn-style-admin">Update</a></td>
+                        <td class="footer-admin"><a href="admin_delete.php?ID=<?php echo $res["ID"] ?>" class="btn-style-admin">Delete</a></td>
                     </tr>
                 <?php
                 }
               ?>
         </table>
+      <?php
+        include_once("includes/footer.php");
+      ?>
     </main>
 </body>
 </html>

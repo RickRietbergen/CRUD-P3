@@ -176,3 +176,66 @@ VALUES(
     '100',
     'pizza'
 );
+-----------------------------------------------------------
+INSERT INTO menu(
+    product_name,
+    prijs,
+    voorraad,
+    categorie
+)
+VALUES(
+    'test',
+    '2.00',
+    '100',
+    'test'
+),(
+    'test', 
+    '2.25', 
+    '100', 
+    'test'
+),(
+    'test',
+    '2.75',
+    '100',
+    'test'
+),(
+    'test', 
+    '2.75', 
+    '100', 
+    'test'
+),(
+    'test',
+    '3.25',
+    '100',
+    'test'
+),(
+    'test',
+    '3.25',
+    '100',
+    'test'
+),(
+    'test', 
+    '3.25', 
+    '100', 
+    'test'
+),(
+    'test',
+    '5.75',
+    '100',
+    'test'
+),(
+    'test',
+    '6.50',
+    '100',
+    'test'
+),(
+    'gezinszak friet 2 personen',
+    '4.50',
+    '100',
+    'test'
+),(
+    'test',
+    '6.00',
+    '100',
+    'test'
+);

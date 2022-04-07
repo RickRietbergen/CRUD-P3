@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="CSS/styles.css"/>
     <title>Deleted Item</title>
 </head>
-<body>
+<body class="delete-body">
 <?php
     //connect to database
+    $page = 'admin';
+    include_once("includes/header.php");
     require_once("includes/connect.php");
     /**
     * @var PDO $connect
@@ -36,22 +38,27 @@
     // var_dump($result);
         foreach($result as $res){
             if(isset($res["ID"])){
-            ?>
-                <h2 class="deleted-info">Row succesfully deleted.</h2>
-                <br>
-                <h2 class="deleted-info">information:</h2>
-                <br>
-                <h2>ID: <?php echo $res["ID"]?></h2>
-                <h2>product Name: <?php echo $res["product_name"]?></h2>
-                <h2>Picture URL: <?php echo $res["picture"]?></h2>
-                <h2>Prijs: € <?php echo $res["prijs"]?></h2>
-                <h2>Voorraad: <?php echo $res["voorraad"]?> stuks</h2>
-                <h2>Categorie: <?php echo $res["categorie"]?></h2>
+            ?>  <div class="div-delete">
+                    <div class="deleted-info">
+                        <h2>Row succesfully deleted!</h2>
+                        <h2 class="info-space">information of deleted row:</h2>
+                        <h2>ID: <?php echo $res["ID"]?></h2>
+                        <h2>product Name: <?php echo $res["product_name"]?></h2>
+                        <h2>Picture URL: <?php echo $res["picture"]?></h2>
+                        <h2>Prijs: € <?php echo $res["prijs"]?></h2>
+                        <h2>Voorraad: <?php echo $res["voorraad"]?> stuks</h2>
+                        <h2 class="footer-delete-margin">Categorie: <?php echo $res["categorie"]?></h2>
+                    </div>
+                </div>
             <?php
             }
             ?>
         <?php
       }
+    ?>
+
+    <?php
+        include_once("includes/footer.php");
     ?>
 </main>
 </body>

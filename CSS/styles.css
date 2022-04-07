@@ -34,7 +34,7 @@ header .header nav li .ul1 {
 
 header .header nav li ul a {
 	text-decoration: none;
-	color: white;
+	color: #fff;
 	font-size: 17.5px;
 }
 
@@ -49,28 +49,15 @@ header .header nav li a .snackbar__logo {
 	margin-left: 80px;
 }
 /* Footer */
-footer #footer-all {
-	color: #001537;
-}
-
 footer {
 	display: flex;
 	justify-content: center;
 	background-color: black;
 	color: white;
-	padding: 13px;
+	padding: 15px;
+	border-top: 2px solid #404147;
 }
 
-/* footer {
-	width: 100%;
-	height: 5vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 30px;
-	color: blue;
-	border-top: 1px solid blue;
-} */
 .burger__pic {
 	justify-content: center;
 	align-items: center;
@@ -199,6 +186,7 @@ footer {
 	text-decoration: none;
 	color: #fff;
 }
+
 .container__menu .menu__keuze__catogorie a p {
 	width: 100px;
 }
@@ -374,11 +362,11 @@ footer {
 .admin-main tr,
 th,
 td {
-	border: 2px solid red;
+	border: 2px solid #00307e;
 	padding: 15px;
 	text-align: center;
 }
-
+/*displays nothing in the body, $page makes sure that the picture part of the header will work*/
 .admin-body .header-none {
 	display: none;
 }
@@ -405,12 +393,38 @@ td {
 }
 
 /*admin-deleted page*/
-.admin-main .admin-deleted h2 {
-	display: flex;
-	justify-content: center;
-	margin-left: 5%;
+/*call body + .header-none to disable the links*/
+.delete-body .header-none {
+	display: none;
+}
+.admin-deleted {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	color: #fff;
 }
 
-.admin-main .admin-deleted .deleted-info {
-	padding: 30px;
+.admin-deleted .div-delete {
+	display: flex;
+	justify-content: center;
+}
+
+.admin-deleted .div-delete .deleted-info {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.admin-deleted .div-delete .deleted-info .info-space {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.admin-deleted .div-delete .deleted-info h2 {
+	width: 100%;
+	border: 2px solid #00307e;
+	padding: 20px;
+}
+/*sets the margin between last info h2 and the footer.*/
+.admin-deleted .div-delete .deleted-info .footer-delete-margin {
+	margin-bottom: 18vh;
 }
