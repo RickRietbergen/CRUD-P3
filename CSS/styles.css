@@ -1,60 +1,65 @@
 * {
-  margin: 0;
-  padding: 0;
-  /*google font*/
-  font-family: "Nanum Gothic", sans-serif;
-  /*smooth scroll*/
-  scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	/*google font*/
+	font-family: "Nanum Gothic", sans-serif;
+	/*smooth scroll*/
+	scroll-behavior: smooth;
 }
 /*body*/
 body {
-  background-color: #fff;
-  max-width: 100%;
-  overflow-x: hidden;
+	background-color: #fff;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 /*header*/
 header .header {
-  width: 100%;
-  height: 7.5vh;
-  background-color: transparent;
-  position: fixed;
+	width: 100%;
+	height: 7.5vh;
+	background-color: transparent;
+	position: fixed;
 }
 
 header .header nav li {
-  display: flex;
+	display: flex;
 }
 
 header .header nav li ul {
-  padding: 25px;
+	padding: 25px;
 }
 /*right side of navbar*/
 header .header nav li .ul1 {
-  margin-left: 60%;
+	margin-left: 60%;
 }
 
 header .header nav li ul a {
-  text-decoration: none;
-  color: white;
-  font-size: 17.5px;
+	text-decoration: none;
+	color: white;
+	font-size: 17.5px;
 }
 
 header .header nav li ul a:hover {
-  color: aquamarine;
+	color: aquamarine;
 }
 
 header .header nav li a .snackbar__logo {
-  width: 80px;
-  height: auto;
-  margin-top: 7.5px;
-  margin-left: 80px;
+	width: 80px;
+	height: auto;
+	margin-top: 7.5px;
+	margin-left: 80px;
 }
 /* Footer */
 footer #footer-all {
-  color: #001537;
+	color: #001537;
 }
 
-
-
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	padding: 13px;
+}
 
 /* footer {
 	width: 100%;
@@ -67,311 +72,311 @@ footer #footer-all {
 	border-top: 1px solid blue;
 } */
 .burger__pic {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 /*homepage*/
 .burger__pic .titel {
-  text-align: center;
-  font-size: 80px;
-  padding-top: 120px;
-  color: white;
+	text-align: center;
+	font-size: 80px;
+	padding-top: 120px;
+	color: white;
 }
 
 .burger__pic .titel_name {
-  text-align: center;
-  font-size: 80px;
-  color: white;
-  font-weight: bold;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	font-weight: bold;
 }
 
 .container__homepage {
-  width: 100%;
-  height: 100vh;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0);
+	width: 100%;
+	height: 100vh;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0);
 }
 /*homepage pic*/
 .container__homepage .burger__pic {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../Assets/afbeeldingen/burger.png");
-  /*nice scroll effect*/
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../Assets/afbeeldingen/burger.png");
+	/*nice scroll effect*/
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 /*informatie*/
 .container__about {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  box-shadow: 0px 0px 10px rgba(255, 255, 255);
-  background-color: #404147;
-  border-top: solid 2px lightgray;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	box-shadow: 0px 0px 10px rgba(255, 255, 255);
+	background-color: #404147;
+	border-top: solid 2px lightgray;
 }
 
 .container__about .txt__title__about {
-  font-size: 35px;
+	font-size: 35px;
 }
 
 .container__about .txt__about__box {
-  width: 40%;
-  height: 80vh;
-  margin-top: 7.5vh;
-  margin-left: 5%;
-  word-spacing: 2px;
-  line-height: 2;
-  color: #fff;
+	width: 40%;
+	height: 80vh;
+	margin-top: 7.5vh;
+	margin-left: 5%;
+	word-spacing: 2px;
+	line-height: 2;
+	color: #fff;
 }
 
 .container__about .txt__about__box .txt__pic__about {
-  width: 750px;
-  height: 375px;
-  margin-top: 15%;
-  border-radius: 20px;
-  background-color: aqua;
+	width: 750px;
+	height: 375px;
+	margin-top: 15%;
+	border-radius: 20px;
+	background-color: aqua;
 }
 
 .container__about .pic__about__box .title__margin__about {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 .container__about .pic__about__box {
-  width: 40%;
-  height: 80vh;
-  margin-top: 7.5vh;
-  margin-left: 7.5%;
-  word-spacing: 2px;
-  line-height: 2;
-  color: #fff;
+	width: 40%;
+	height: 80vh;
+	margin-top: 7.5vh;
+	margin-left: 7.5%;
+	word-spacing: 2px;
+	line-height: 2;
+	color: #fff;
 }
 
 .container__about .pic__about__box .pic__about {
-  width: 750px;
-  height: 375px;
-  border-radius: 20px;
-  background-color: purple;
+	width: 750px;
+	height: 375px;
+	border-radius: 20px;
+	background-color: purple;
 }
 
 /*menu*/
 .container__menu {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0);
-  background-color: black;
-  border-top: solid 2px lightgray;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0);
+	background-color: black;
+	border-top: solid 2px lightgray;
 }
 
 .container__menu .div__menu__select {
-  width: 10%;
-  height: 100vh;
-  margin-top: 50px;
-  margin-left: 50px;
+	width: 10%;
+	height: 100vh;
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 .container__menu .div__menu__select .menu__title__catogorie {
-  font-size: 20px;
-  margin-bottom: 25px;
-  color: #fff;
+	font-size: 20px;
+	margin-bottom: 25px;
+	color: #fff;
 }
 
 .container__menu .div__menu__select .menu__keuze__catogorie {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .container__menu .menu__keuze__catogorie {
-  text-decoration: none;
-  line-height: 1.75;
-  color: #fff;
+	text-decoration: none;
+	line-height: 1.75;
+	color: #fff;
 }
 
 .container__menu .menu__keuze__catogorie a {
-  padding: 5px;
-  text-decoration: none;
-  color: #fff;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
 }
 .container__menu .menu__keuze__catogorie a p {
-  width: 100px;
+	width: 100px;
 }
 /*select categorie*/
 .container__menu .div__scroll__food {
-  width: 90%;
-  height: 100vh;
-  overflow: auto;
-  background-color: #001537;
-  color: #fff;
+	width: 90%;
+	height: 100vh;
+	overflow: auto;
+	background-color: #001537;
+	color: #fff;
 }
 
 .container__menu .div__scroll__food .title__menu {
-  width: 100%;
-  height: 5%;
+	width: 100%;
+	height: 5%;
 }
 
 .container__menu .div__scroll__food .title__menu h2 {
-  margin-left: 42.5%;
-  margin-top: 50px;
-  font-size: 40px;
-  color: #fff;
+	margin-left: 42.5%;
+	margin-top: 50px;
+	font-size: 40px;
+	color: #fff;
 }
 /*food choice*/
 .container__menu .div__scroll__food section {
-  display: flex;
-  max-width: 100%;
-  flex-wrap: wrap;
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
 }
 
 .container__menu .div__scroll__food section .product {
-  margin: 25px;
+	margin: 25px;
 }
 
 .container__menu .div__scroll__food section .product p {
-  text-align: center;
+	text-align: center;
 }
 
 .container__menu .div__scroll__food section .product .shoppingCart {
-  display: block;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60px;
-  height: 60px;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	height: 60px;
 }
 
 .container__menu .div__scroll__food section img {
-  width: 175px;
-  height: 175px;
+	width: 175px;
+	height: 175px;
 }
 
 /*contact*/
 .container__contact {
-  width: 100%;
-  height: 100vh;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0);
-  background-color: black;
-  border-top: solid 2px lightgrey;
-  color: #fff;
-  border-radius: 5px;
+	width: 100%;
+	height: 100vh;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0);
+	background-color: black;
+	border-top: solid 2px lightgrey;
+	color: #fff;
+	border-radius: 5px;
 }
 
 .container__contact h2 {
-  display: flex;
-  font-size: 40px;
-  margin-top: 50px;
-  justify-content: center;
+	display: flex;
+	font-size: 40px;
+	margin-top: 50px;
+	justify-content: center;
 }
 
 .container__contact form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
 }
 
 .container__contact form #label__fullname {
-  width: 100%;
-  height: 30px;
-  font-size: 20px;
-  margin-left: 39.25%;
-  margin-bottom: 10px;
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 39.25%;
+	margin-bottom: 10px;
 }
 
 .container__contact form #input__fullname {
-  width: 60%;
-  padding: 15px;
-  background-color: #29292d;
-  border-style: none;
-  color: #fff;
-  margin-bottom: 15px;
-  border-radius: 5px;
+	width: 60%;
+	padding: 15px;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	margin-bottom: 15px;
+	border-radius: 5px;
 }
 
 .container__contact form #label__email {
-  width: 100%;
-  height: 30px;
-  font-size: 20px;
-  margin-left: 39.25%;
-  margin-bottom: 15px;
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 39.25%;
+	margin-bottom: 15px;
 }
 
 .container__contact form #input__email {
-  width: 60%;
-  padding: 15px;
-  background-color: #29292d;
-  border-style: none;
-  color: #fff;
-  margin-bottom: 20px;
-  border-radius: 5px;
+	width: 60%;
+	padding: 15px;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
 }
 
 .container__contact form #label__discription {
-  width: 100%;
-  height: 30px;
-  font-size: 20px;
-  margin-left: 39.25%;
-  margin-bottom: 15px;
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 39.25%;
+	margin-bottom: 15px;
 }
 
 .container__contact form #input__discription {
-  width: 60%;
-  padding: 15px;
-  background-color: #29292d;
-  border-style: none;
-  color: #fff;
-  margin-bottom: 15px;
-  resize: none;
-  border-radius: 5px;
+	width: 60%;
+	padding: 15px;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	margin-bottom: 15px;
+	resize: none;
+	border-radius: 5px;
 }
 
 .container__contact form #click__submit {
-  width: 5%;
-  background-color: #29292d;
-  border-style: none;
-  color: #fff;
-  padding: 15px;
-  margin-right: 56%;
-  border-radius: 20px;
+	width: 5%;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	padding: 15px;
+	margin-right: 56%;
+	border-radius: 20px;
 }
 
 /*admin panel*/
 .admin-body {
-  width: 100%;
-  height: 100vh;
-  background-color: black;
-  color: #fff;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	color: #fff;
 }
 
 .admin-main h2 {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-  margin-bottom: 10%;
-  font-size: 50px;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	margin-bottom: 10%;
+	font-size: 50px;
 }
 
 .admin-main {
-  background-color: black;
+	background-color: black;
 }
 
 .admin-main table {
-  display: flex;
-  justify-content: center;
-  border-collapse: collapse;
+	display: flex;
+	justify-content: center;
+	border-collapse: collapse;
 }
 /*even tr num has a backgr. color*/
 .admin-main tr:nth-child(even) {
-  background-color: #404147;
+	background-color: #404147;
 }
 /*admin page border*/
 .admin-main tr,
 th,
 td {
-  border: 2px solid red;
-  padding: 15px;
-  text-align: center;
+	border: 2px solid red;
+	padding: 15px;
+	text-align: center;
 }
 
 .admin-body .header-none {
@@ -379,33 +384,33 @@ td {
 }
 /*admin page button css*/
 .admin-main tr td .btn-style-admin {
-  text-decoration: none;
-  color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
 /*admin edit page*/
 .admin-update form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .admin-update h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 30px;  
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
 }
 
 .admin-update form .edit-product-all {
-  width: 40%;
+	width: 40%;
 }
 
 /*admin-deleted page*/
 .admin-main .admin-deleted h2 {
-  display: flex;
-  justify-content: center;
-  margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	margin-left: 5%;
 }
 
 .admin-main .admin-deleted .deleted-info {
-  padding: 30px;
+	padding: 30px;
 }

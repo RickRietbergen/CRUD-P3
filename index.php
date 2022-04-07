@@ -17,18 +17,18 @@
   </head>
   <body>
     <?php
-      //include header, connection to database, footer.
-      include_once("includes/header.php");
-      require_once("includes/connect.php");
-      /**
-      * @var PDO $connect
-      */
+      // //include header, connection to database, footer.
+      // include_once("includes/header.php");
+      // require_once("includes/connect.php");
+      // /**
+      // * @var PDO $connect
+      // */
 
-      //connect to database
-      $sql = "SELECT * FROM menu";
-      $stmt = $connect->prepare($sql);
-      $stmt-> execute();
-      $result = $stmt->fetchALL();
+      // //connect to database
+      // $sql = "SELECT * FROM menu";
+      // $stmt = $connect->prepare($sql);
+      // $stmt-> execute();
+      // $result = $stmt->fetchALL();
     ?>
     <main>
       <div class="container__homepage" id="home">
