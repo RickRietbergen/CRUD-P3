@@ -25,6 +25,9 @@
       $result = $stmt->fetchALL();
     ?>
     <main class="admin-main">
+      <form class="admin-form" action="" method="">
+        <input type="search" id="search-input" placeholder="Enter Search Term" aria-label="Enter Search Term">
+      </form>
 
         <h2>Admin Panel Big Snack</h2>
 
@@ -43,7 +46,7 @@
               <?php
                 foreach($result as $res){
                     ?>
-                    <tr>
+                    <tr id="table-row">
                         <td><?php echo $res["ID"]?></td>
                         <td><?php echo $res["product_name"]?></td>
                         <td><?php echo $res["picture"]?></td>
@@ -61,5 +64,6 @@
         include_once("includes/footer.php");
       ?>
     </main>
+    <script src="JS/search.js"></script>
 </body>
 </html>

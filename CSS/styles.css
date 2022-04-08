@@ -337,16 +337,16 @@ footer {
 	color: #fff;
 }
 
+.admin-main {
+	background-color: black;
+}
+
 .admin-main h2 {
 	display: flex;
 	justify-content: center;
 	padding-top: 100px;
 	margin-bottom: 10%;
 	font-size: 50px;
-}
-
-.admin-main {
-	background-color: black;
 }
 
 .admin-main table {
@@ -375,6 +375,24 @@ td {
 	text-decoration: none;
 	color: #fff;
 }
+
+.admin-main .admin-form {
+	width: auto;
+	margin-top: 1.5%;
+	margin-left: 82.5%;
+	position: absolute;
+}
+
+.admin-main .admin-form input {
+	width: 200px;
+	height: 30px;
+	padding: 20px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: #404147;
+	color: #fff;
+}
+
 /*admin edit page*/
 .admin-update form {
 	display: flex;
