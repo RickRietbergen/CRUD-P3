@@ -359,9 +359,7 @@ footer {
 	background-color: #404147;
 }
 /*admin page border*/
-.admin-main tr,
-th,
-td {
+.admin-main tr, th, td {
 	border: 2px solid #00307e;
 	padding: 15px;
 	text-align: center;
@@ -375,14 +373,14 @@ td {
 	text-decoration: none;
 	color: #fff;
 }
-
+/*search bar*/
 .admin-main .admin-form {
 	width: auto;
 	margin-top: 1.5%;
 	margin-left: 82.5%;
 	position: absolute;
 }
-
+/*search bar*/
 .admin-main .admin-form input {
 	width: 200px;
 	height: 30px;
@@ -392,8 +390,76 @@ td {
 	background-color: #404147;
 	color: #fff;
 }
+/*button add-item*/
+.admin-main .button-additem {
+	position: absolute;
+	padding: 12.5px;
+	border: 2px solid #00307e;
+	border-radius: 5px;
+	background-color: #404147;
+	margin-top: 30vh;
+	margin-left: 88.75%;
+}
+
+.admin-main .button-additem a {
+	text-decoration: none;
+	color: #fff;
+}
+/*add item page*/
+.admin-add {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	color: #fff;
+}
+
+.admin-add h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	padding: 40px;
+}
+
+.admin-add form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.admin-add form label {
+	font-size: 25px;
+	padding: 15px;
+}
+
+.admin-add form input {
+	text-align: center;
+	background-color: #404147;
+	color: #fff;
+}
+
+.admin-add .input-add-item {
+	width: 45%;
+	height: 3vh;
+	padding: 10px;
+	border: 2px solid #00307e;
+	border-radius: 5px;
+}
+
+.admin-add #click-additem {
+	margin-top: 30px;
+	padding: 12.5px;
+	border: 2px solid #00307e;
+	border-radius: 5px;
+}
 
 /*admin edit page*/
+.admin-update {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	color: #fff;
+}
+
 .admin-update form {
 	display: flex;
 	flex-direction: column;
@@ -403,11 +469,34 @@ td {
 .admin-update h2 {
 	display: flex;
 	justify-content: center;
-	font-size: 30px;
+	font-size: 35px;
+	padding: 40px;
+}
+/*form*/
+.admin-update form label {
+	font-size: 25px;
+	padding: 15px;
+}
+
+.admin-update form input {
+	text-align: center;
+	background-color: #404147;
+	color: #fff;
 }
 
 .admin-update form .edit-product-all {
-	width: 40%;
+	width: 45%;
+	height: 3vh;
+	padding: 10px;
+	border: 2px solid #00307e;
+	border-radius: 5px;
+}
+
+.admin-update form .update-submit {
+	margin-top: 30px;
+	padding: 12.5px;
+	border: 2px solid #00307e;
+	border-radius: 5px;
 }
 
 /*admin-deleted page*/

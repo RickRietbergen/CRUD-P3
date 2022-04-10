@@ -25,9 +25,14 @@
       $result = $stmt->fetchALL();
     ?>
     <main class="admin-main">
-      <form class="admin-form" action="" method="">
+      <form class="admin-form" action="">
         <input type="search" id="search-input" placeholder="Enter Search Term" aria-label="Enter Search Term">
       </form>
+      <button class="button-additem">
+        <a href="admin_additem.php">
+          Add Item
+        </a>
+      </button>
 
         <h2>Admin Panel Big Snack</h2>
 

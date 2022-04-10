@@ -27,7 +27,7 @@
 
     <main class="admin-update">
         <h2>Edit Row</h2>
-        <form action="PHP/updateProduct.php" method="post">
+        <form action="PHP/update_Product.php" method="post">
             <label for="">ID:</label>
             <input
                 class="edit-product-all"
@@ -98,7 +98,7 @@
                 value="<?php echo $result[0]["categorie"]?>"
                 required
             />
-            <input id="submit" type="submit" class="" value="Submit" name="submit" />
+            <input id="submit" type="submit" class="update-submit" value="Submit" name="submit" />
 
         </form>
     </main>
