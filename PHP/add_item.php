@@ -6,11 +6,10 @@ require_once("../includes/connect.php");
 * @var PDO $connect
 */
 
-$sql = 'INSERT INTO contact (name, email, message)
-VALUES (:name, :email, :message)';
+$sql = 'INSERT INTO menu (product_name, picture, prijs, voorraad, categorie)
+VALUES (:product_name, :picture, :prijs, :voorraad, :categorie)';
 
 $stmt = $connect->prepare($sql);
-$stmt->bindParam(":ID", $_POST['ID']);
 $stmt->bindParam(":product_name", $_POST["name"]);
 $stmt->bindParam(":picture", $_POST["picture"]);
 $stmt->bindParam(":prijs", $_POST["prijs"]);
