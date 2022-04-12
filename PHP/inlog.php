@@ -5,27 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inlog Pagina</title>
+    <!--link css-->
+    <link rel="stylesheet" href="../CSS/styles.css"/>
 </head>
 <body>
-    <main>
-        <form action="SESSION.php">
-            <label id="label__fullname" for="fullname">Full Name</label>
+    <main class="inlog-main">
+        <h2>Sign In</h2>
+        <form action="authenticate.php" method="POST">
+            <label id="" for="">Full Name</label>
           <input
-            id=""
+            id="username"
             type="text"
-            name=""
+            name="USERNAME"
             maxlength="25"
             placeholder="Enter Username:"
+            required
           />
 
-          <label id="label__fullname" for="fullname">Full Name</label>
+          <label id="" for="">Full Name</label>
           <input
-            id=""
+            id="password"
             type="text"
-            name=""
+            name="PASSWORD"
             maxlength="25"
             placeholder="Enter Password:"
+            required
           />
+          <input id="login-submit" type="submit" value="Login">
         </form>
     </main>
 </body>

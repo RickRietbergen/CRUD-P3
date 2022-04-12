@@ -14,6 +14,7 @@
       $page = 'admin';
       include_once("includes/header.php");
       require_once("includes/connect.php");
+      include_once("includes/session.php");
       /**
       * @var PDO $connect
       */
