@@ -44,10 +44,7 @@
             <h2>Title</h2>
           </div>
           <div class="txt__info__about">
-            Welkom bij de Big Snack. In deze snackbar maken wij voor u het gerecht wat u wilt. 
-            <br>
-            Bekijk onze menukaart op de volgende pagina om uit te kunnen kiezen uit onze gerechten.
-            <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod illum
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod illum
             inventore atque. Placeat quod doloremque natus fugit eligendi
             temporibus cupiditate, at cum, fuga architecto vero, recusandae
             accusantium ipsam iusto possimus beatae quasi. Id vero molestiae aut
@@ -55,27 +52,25 @@
             laborum provident quasi qui ipsam sed repellat quidem necessitatibus
             dignissimos neque id et error hic laudantium, dolore ipsum! Nobis
             tenetur laboriosam, alias voluptates recusandae doloribus? Incidunt
-            fugiat eos illo laboriosam nemo? -->
+            fugiat eos illo laboriosam nemo?
           </div>
-          <div class="txt__pic__about">
-            <img src="https://www.bigsnack.nl/themes/plazafood/images/bs-spaarkaart-bg.png" alt="">
-          </div>
+          <div class="txt__pic__about"></div>
         </div>
         <div class="pic__about__box">
-          <div class="pic__about">
-            <img src="Assets/afbeeldingen/bigsnack.png" alt="">
-          </div>
+          <div class="pic__about"></div>
           <div class="title__margin__about txt__title__about">
             <h2>Title</h2>
           </div>
           <div class="txt__info__about">
-            Sparen bij Big Snack
-            <br>
-            Vaste klanten van Big Snack profiteren van extra veel voordeel! Met de Big Snack spaarkaart spaar je snel en eenvoudig voor korting.
-            <br>
-            Hoe kan ik sparen?
-            <br>
-            Bij besteding van iedere €4,- ontvangt je een stempel op je spaarkaart. Je hebt al een volle spaarkaart bij 24 stempels. Lever je volle spaarkaart vervolgens in bij je lokale Big Snack en ontvang €4,- korting!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod illum
+            inventore atque. Placeat quod doloremque natus fugit eligendi
+            temporibus cupiditate, at cum, fuga architecto vero, recusandae
+            accusantium ipsam iusto possimus beatae quasi. Id vero molestiae aut
+            quasi. Officia debitis cupiditate voluptatum illum cumque minima
+            laborum provident quasi qui ipsam sed repellat quidem necessitatibus
+            dignissimos neque id et error hic laudantium, dolore ipsum! Nobis
+            tenetur laboriosam, alias voluptates recusandae doloribus? Incidunt
+            fugiat eos illo laboriosam nemo?
           </div>
         </div>
       </div>

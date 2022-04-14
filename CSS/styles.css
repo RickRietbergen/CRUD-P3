@@ -6,9 +6,6 @@
 	/*smooth scroll*/
 	scroll-behavior: smooth;
 }
-html {
-	width: 100%;
-}
 /*body*/
 body {
 	background-color: #fff;
@@ -120,18 +117,13 @@ footer {
 	line-height: 2;
 	color: #fff;
 }
-/*box for image*/
+
 .container__about .txt__about__box .txt__pic__about {
 	width: 750px;
 	height: 375px;
 	margin-top: 15%;
 	border-radius: 20px;
-	background-color: transparent;	
-}
-/*img spaarkaart*/
-.container__about .txt__about__box .txt__pic__about img {
-	width: 600px;
-	margin-left: 100px;
+	background-color: aqua;
 }
 
 .container__about .pic__about__box .title__margin__about {
@@ -147,20 +139,14 @@ footer {
 	line-height: 2;
 	color: #fff;
 }
-/*box for image*/
+
 .container__about .pic__about__box .pic__about {
 	width: 750px;
 	height: 375px;
 	border-radius: 20px;
-	background-color: transparent;
-	background-image: url();
+	background-color: purple;
+}
 
-}
-/*img big snack*/
-.container__about .pic__about__box .pic__about img {
-	width: 475px;
-	border-radius: 5px;
-}
 /*menu*/
 .container__menu {
 	display: flex;
@@ -174,8 +160,8 @@ footer {
 .container__menu .div__menu__select {
 	width: 10%;
 	height: 100vh;
+	margin-top: 50px;
 	margin-left: 50px;
-	/* border-right: 2px solid #00307e; */
 }
 
 .container__menu .div__menu__select .menu__title__catogorie {
@@ -195,10 +181,6 @@ footer {
 	color: #fff;
 }
 
-/* .container__menu .menu__title__categorie h2 {
-	margin-top: 50px;
-} */
-
 .container__menu .menu__keuze__catogorie a {
 	padding: 5px;
 	text-decoration: none;
@@ -213,7 +195,7 @@ footer {
 	width: 90%;
 	height: 100vh;
 	overflow: auto;
-	/* background-color: black; */
+	background-color: #001537;
 	color: #fff;
 }
 
