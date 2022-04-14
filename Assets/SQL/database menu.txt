@@ -88,3 +88,154 @@ VALUES(
     '100',
     'gezinszak friet'
 );
+---------------------------------------------------------------------
+INSERT INTO menu(
+    product_name,
+    prijs,
+    voorraad,
+    categorie
+)
+VALUES(
+    'kipcorn',
+    '2.50',
+    '100',
+    'kipsnacks'
+),(
+    'kipfingers', 
+    '3.50', 
+    '100', 
+    'kipsnacks'
+),(
+    'kippnuggets 6 stuks',
+    '3.50',
+    '100',
+    'kipsnacks'
+),(
+    'hotwings', 
+    '4.95', 
+    '100', 
+    'kipsnacks'
+),(
+    'Chicken burger',
+    '4.50',
+    '100',
+    'hamburgers'
+),(
+    'hamburger speciaal',
+    '3.95',
+    '100',
+    'hamburgers'
+),(
+    'cheese burger', 
+    '4.50', 
+    '100', 
+    'hamburgers'
+),(
+    'bacon burger',
+    '4.95',
+    '100',
+    'hamburgers'
+),(
+    'hawai burger',
+    '4.95',
+    '100',
+    'hamburgers'
+),(
+    'sate burger',
+    '4.50',
+    '100',
+    'hamburgers'
+),(
+    'pizza margherita',
+    '8.50',
+    '100',
+    'pizza'
+),(
+    'pizza mozzarella',
+    '10.00',
+    '100',
+    'pizza'
+),(
+    'pizza salami',
+    '9.50',
+    '100',
+    'pizza'
+),(
+    'pizza bolognese',
+    '10.50',
+    '100',
+    'pizza'
+),(
+    'pizza shoarma',
+    '10.50',
+    '100',
+    'pizza'
+),(
+    'pizza hot chicken',
+    '12.00',
+    '100',
+    'pizza'
+);
+-----------------------------------------------------------
+INSERT INTO menu(
+    product_name,
+    prijs,
+    voorraad,
+    categorie
+)
+VALUES(
+    'test',
+    '2.00',
+    '100',
+    'test'
+),(
+    'test', 
+    '2.25', 
+    '100', 
+    'test'
+),(
+    'test',
+    '2.75',
+    '100',
+    'test'
+),(
+    'test', 
+    '2.75', 
+    '100', 
+    'test'
+),(
+    'test',
+    '3.25',
+    '100',
+    'test'
+),(
+    'test',
+    '3.25',
+    '100',
+    'test'
+),(
+    'test', 
+    '3.25', 
+    '100', 
+    'test'
+),(
+    'test',
+    '5.75',
+    '100',
+    'test'
+),(
+    'test',
+    '6.50',
+    '100',
+    'test'
+),(
+    'gezinszak friet 2 personen',
+    '4.50',
+    '100',
+    'test'
+),(
+    'test',
+    '6.00',
+    '100',
+    'test'
+);
