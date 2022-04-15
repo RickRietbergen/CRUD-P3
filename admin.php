@@ -66,7 +66,7 @@
                 }
               ?>
         </table>
-      <?php
+      <?php id="test"
         include_once("includes/footer.php");
       ?>
     </main>
