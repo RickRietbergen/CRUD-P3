@@ -602,4 +602,21 @@ footer {
 	body {
 		background-color: transparent;
 	}
+	nav {
+		display: none;
+	}
+	.burger__pic .titel {
+		font-size: 45px;
+	}
+	.burger__pic .titel_name {
+		font-size: 45px;
+		font-weight: normal;
+	}
+	.container__homepage {
+		background-color: black;
+	}
+	.container__homepage .burger__pic {
+		background-image: url("../Assets/afbeeldingen/snackbarlogo.png");
+		background-attachment: unset;
+	}
 }
