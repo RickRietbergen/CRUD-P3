@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--link css-->
     <link rel="stylesheet" href="CSS/styles.css"/>
+    <!--icon website-->
+    <link rel="icon" type="image/x-icon" href="Assets/afbeeldingen/snackbarlogo.png">
     <title>Edit row</title>
 </head>
 <body>

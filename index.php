@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
+    <!--icon website-->
+    <link rel="icon" type="image/x-icon" href="Assets/afbeeldingen/snackbarlogo.png">
   </head>
   <body>
     <?php
@@ -395,6 +397,8 @@
           ></textarea>
           <input id="click__submit" type="submit" value="submit" />
         </form>
+
+        <p id="success__text">Contact Formulier is verstuurd</p>
       </div>
 
       <?php
@@ -417,4 +421,11 @@
         -->
     </main>
   </body>
+  <!--link submit_contact, to use .ajax-->
+    <script 
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous">
+    </script>
+    <script src="JS/submit_contact.js">
+    // </script>
 </html>

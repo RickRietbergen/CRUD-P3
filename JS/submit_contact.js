@@ -1,53 +1,46 @@
-// const queryString = window.location.search;
-// const urlParams = new URLSearchParams(queryString);
-// const ID = urlParams.get('ID')
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const ID = urlParams.get('ID');
 
-// $(document).ready(function () {
-//   $("#submit").click(function () {
-//     var productName = $("#edit-product-name").val();
-//     var pictureURL = $("#edit-picture-url").val();
-//     var prijs = $("#edit-prijs").val();
-//     var voorraad = $("#edit-voorraad").val();
-//     var categorie = $("#edit-categorie").val();
+const submit = document.querySelector("#click__submit");
+const fullname = document.querySelector("#input__fullname");
+const email = document.querySelector("#input__email");
+const discription = document.querySelector("#input__discription");
+const success = decodeURIComponent.querySelector("#success__text");
 
-//     if (
-//       productName == "" ||
-//       pictureURL == "" ||
-//       prijs == "" ||
-//       voorraad == "" ||
-//       categorie == ""
-//     ) {
-//       alert("Please fill all fields.");
-//       return false;
-//     }
-//     console.log(productName);
+/*laat de tekst niet zien*/
+success.style.display = "none";
 
-//     $.ajax({
-//       type: "POST",
-//       url: "PHP/edit_db.php",
-//       data: {
-//         //edit_db.php , var opgeslagen hierboven.
-//         ID: ID,
-//         product_name: productName,
-//         picture: pictureURL,
-//         prijs: prijs,
-//         voorraad: voorraad,
-//         categorie: categorie,
-//       },
-//       cache: false,
-//       success: function (data) {
-//         alert(data);
-//       },
-//       error: function (xhr, status, error) {
-//         console.error(xhr);
-//       },
-//     });
-//   });
-// });
+function success_verzonden() {
+    /*laat de tekst zien*/
+    success.style.dispay = "";
+}
 
-// add on the bottum of the page
-//  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-//     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous">
-// </script>
-// <script src="JS/submit_contact.js">
-// </script>
+submit.addEventListener("click", (e) => {
+    e.preventDefault();
+
+
+}
+
+    $.ajax({
+        type: "POST",
+        url: "index.php",
+        data: {
+            name: fullname
+            // ID: ID,
+            // product_name: productName,
+            // picture: pictureURL,
+            // prijs: prijs,
+            // voorraad: voorraad,
+            // categorie: categorie,
+      },
+      cache: false,
+      success: function (data) {
+        alert(data);
+      },
+      error: function (xhr, status, error) {
+        console.error(xhr);
+      },
+    });
+  });
+});
