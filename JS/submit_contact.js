@@ -1,46 +1,32 @@
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const ID = urlParams.get('ID');
+// const queryString = window.location.search;
+// const urlParams = new URLSearchParams(queryString);
+// const ID = urlParams.get('ID');
+const js_submit = document.querySelector("#click__submit");
+const js_fullname = document.querySelector("#input__fullname");
+const js_email = document.querySelector("#input__email");
+const js_message = document.querySelector("#input__discription");
 
-const submit = document.querySelector("#click__submit");
-const fullname = document.querySelector("#input__fullname");
-const email = document.querySelector("#input__email");
-const discription = document.querySelector("#input__discription");
-const success = decodeURIComponent.querySelector("#success__text");
-
-/*laat de tekst niet zien*/
-success.style.display = "none";
-
-function success_verzonden() {
+function form_verzonden() {
     /*laat de tekst zien*/
-    success.style.dispay = "";
+    alert("Formulier verzonden");
 }
 
 submit.addEventListener("click", (e) => {
     e.preventDefault();
 
-
-}
-
     $.ajax({
-        type: "POST",
-        url: "index.php",
-        data: {
-            name: fullname
-            // ID: ID,
-            // product_name: productName,
-            // picture: pictureURL,
-            // prijs: prijs,
-            // voorraad: voorraad,
-            // categorie: categorie,
+      type: "POST",
+      url: "PHP/submit_contact.php",
+      data: {
+        // ID: ID,
+        name: js_fullname.value,
+        email: js_email.value,
+        message: js_message.value,
       },
       cache: false,
-      success: function (data) {
-        alert(data);
-      },
+      success: form_verzonden,
       error: function (xhr, status, error) {
         console.error(xhr);
       },
     });
-  });
 });

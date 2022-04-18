@@ -599,8 +599,20 @@ footer {
 	body {
 		background-color: transparent;
 	}
+	/*navbar*/
 	nav {
 		display: none;
+	}
+	/*home page*/
+	.container__homepage {
+		background-color: black;
+	}
+	.container__homepage .burger__pic {
+		display: flex;
+		width: 100%;
+		height: 50vh;
+		background-image: url("../Assets/afbeeldingen/snackbarlogo.png");
+		background-attachment: unset;
 	}
 	.burger__pic .titel {
 		font-size: 45px;
@@ -609,11 +621,57 @@ footer {
 		font-size: 45px;
 		font-weight: normal;
 	}
-	.container__homepage {
-		background-color: black;
+	/*about page*/
+	.container__about {
+		height: 150vh;
+		flex-direction: column;
 	}
-	.container__homepage .burger__pic {
-		background-image: url("../Assets/afbeeldingen/snackbarlogo.png");
-		background-attachment: unset;
+
+	.container__about .txt__title__about {
+		font-size: 30px;
+	}
+
+	.container__about .txt__about__box {
+		width: 80%;
+		height: 50vh;
+		margin-left: 10%;
+		word-spacing: 1.5px;
+		line-height: 1.5;
+	}
+	/*box for image*/
+	.container__about .txt__about__box .txt__pic__about {
+		width: 400px;
+		height: 200px;
+	}
+	/*img spaarkaart*/
+	.container__about .txt__about__box .txt__pic__about img {
+		position: absolute;
+		width: 325px;
+		margin-top: 330px;
+		margin-left: 7.5px;
+	}
+	.container__about .pic__about__box {
+		width: 80%;
+		height: 50vh;
+		margin-top: 5vh;
+		margin-left: 10%;
+		word-spacing: 1.5px;
+		line-height: 1.5;
+	}
+	/*box for image*/
+	.container__about .pic__about__box .pic__about {
+		width: 400px;
+		height: 375px;
+	}
+	/*img big snack*/
+	.container__about .pic__about__box .pic__about img {
+		position: absolute;
+		width: 350px;
+		margin-top: -250px;
+		margin-left: -7.5px;
+	}
+	/*margin buttom text, to spaarkaart*/
+	.container__about .pic__about__box .title__margin__about {
+		margin-top: -30px;
 	}
 }

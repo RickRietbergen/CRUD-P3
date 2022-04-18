@@ -43,7 +43,7 @@
       <div class="container__about" id="about">
         <div class="txt__about__box">
           <div class="txt__title__about">
-            <h2>Title</h2>
+            <h2>Welkom</h2>
           </div>
           <div class="txt__info__about">
             Welkom bij de Big Snack. In deze snackbar maken wij voor u het gerecht wat u wilt. 
@@ -68,7 +68,7 @@
             <img src="Assets/afbeeldingen/bigsnack.png" alt="">
           </div>
           <div class="title__margin__about txt__title__about">
-            <h2>Title</h2>
+            <h2>Spaarkaart</h2>
           </div>
           <div class="txt__info__about">
             Sparen bij Big Snack
@@ -367,7 +367,7 @@
       <div class="container__contact" id="contact">
         <h2>Contact Us</h2>
 
-        <form method="post" action="PHP\submit_contact.php">
+        <form method="post" action="">
           <label id="label__fullname" for="fullname">Full Name</label>
           <input
             id="input__fullname"
@@ -397,8 +397,6 @@
           ></textarea>
           <input id="click__submit" type="submit" value="submit" />
         </form>
-
-        <p id="success__text">Contact Formulier is verstuurd</p>
       </div>
 
       <?php
