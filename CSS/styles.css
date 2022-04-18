@@ -711,7 +711,7 @@ footer {
 	}
 
 	.container__menu .div__scroll__food section .product p {
-		font-size: 15px;
+		font-size: 12.5px;
 		text-align: center;
 	}
 
@@ -725,6 +725,8 @@ footer {
 	}
 
 	.container__menu .div__scroll__food section img {
+		display: flex;
+		align-items: center;
 		width: 65px;
 		height: 65px;
 	}
