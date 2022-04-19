@@ -9,7 +9,7 @@ search_product.addEventListener("input", () => {
             element.style.display = "";
         }else {
             //anders, kijk of de children[1](product_name). include de value van wat je opzoekt.
-            if(element.children[1].innerHTML.includes(search_product.value)){
+            if(element.children[1].innerHTML.toLowerCase().includes(search_product.value.toLowerCase())){
                 //als hij overeen komt, dan laat hij hem zien.
                 element.style.display = "";
             }else {

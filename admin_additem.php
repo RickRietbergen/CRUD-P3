@@ -32,7 +32,7 @@
                 class="input-add-item"
                 type="text"
                 name="ID"
-                maxlength="25"
+                maxlength="1"
                 placeholder="Inserted Automatically"
                 readonly
             />
@@ -51,7 +51,7 @@
                 class="input-add-item"
                 type="text"
                 name="picture"
-                maxlength="25"
+                maxlength=""
                 placeholder="Insert A Picture URL:"
             />
 

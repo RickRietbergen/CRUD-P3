@@ -68,6 +68,11 @@ footer {
 }
 
 /*homepage*/
+/* .container__homepage .field-burger {
+	width: 100%;
+	height: 50vh;
+	padding-top: 200px;
+} */
 .burger__pic .titel {
 	text-align: center;
 	font-size: 80px;
@@ -614,14 +619,17 @@ footer {
 	.container__homepage .burger__pic {
 		display: flex;
 		width: 100%;
-		height: 50vh;
+		height: 40vh;
 		background-image: url("../Assets/afbeeldingen/snackbarlogo.png");
 		background-attachment: unset;
 	}
-	.burger__pic .titel {
+	.txt {
+		padding-top: 750px;
+	}
+	.titel {
 		font-size: 45px;
 	}
-	.burger__pic .titel_name {
+	.titel_name {
 		font-size: 45px;
 		font-weight: normal;
 	}
@@ -649,7 +657,7 @@ footer {
 	.container__about .txt__about__box .txt__pic__about img {
 		position: absolute;
 		width: 325px;
-		margin-top: 330px;
+		margin-top: 280px;
 		margin-left: 7.5px;
 	}
 	.container__about .pic__about__box {
@@ -669,12 +677,12 @@ footer {
 	.container__about .pic__about__box .pic__about img {
 		position: absolute;
 		width: 350px;
-		margin-top: -250px;
+		margin-top: -230px;
 		margin-left: -7.5px;
 	}
 	/*margin buttom text, to spaarkaart*/
 	.container__about .pic__about__box .title__margin__about {
-		margin-top: -30px;
+		margin-top: -50px;
 	}
 	/*menu page*/
 	.container__menu {
@@ -726,8 +734,27 @@ footer {
 
 	.container__menu .div__scroll__food section img {
 		display: flex;
-		align-items: center;
+		align-self: center;
 		width: 65px;
 		height: 65px;
+	}
+	/*admin login*/
+	.inlog-main {
+		height: 90vh;
+	}
+	.inlog-main h2 {
+		padding-top: 150px;
+	}
+	.inlog-main form label {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.inlog-main form input {
+		width: 70%;
+	}
+	.inlog-main #login-submit {
+		padding: 20px;
+		margin-top: 30px;
 	}
 }
