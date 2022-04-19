@@ -738,6 +738,15 @@ footer {
 		width: 65px;
 		height: 65px;
 	}
+	/*contact page*/
+	.container__contact form {
+		margin-top: 50px;
+	}
+	.container__contact form #click__submit {
+		width: 20%;
+		padding: 20px;
+		margin-right: 50%;
+	}
 	/*admin login*/
 	.inlog-main {
 		height: 90vh;
@@ -755,6 +764,6 @@ footer {
 	}
 	.inlog-main #login-submit {
 		padding: 20px;
-		margin-top: 30px;
+		margin-top: 35px;
 	}
 }

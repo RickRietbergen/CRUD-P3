@@ -44,6 +44,7 @@
                 name="name"
                 maxlength="25"
                 placeholder="Add A Product Name:"
+                required
             />
 
             <label id="" for="">Picture URL:</label>
@@ -62,6 +63,7 @@
                 name="prijs"
                 maxlength="6"
                 placeholder="Add A Price:"
+                required
             />
 
             <label id="" for="">Voorraad:</label>
@@ -71,6 +73,7 @@
                 name="voorraad"
                 maxlength="5"
                 placeholder="Quantity In Stock:"
+                required
             />
 
             <label id="" for="">Categorie:</label>
@@ -80,6 +83,7 @@
                 name="categorie"
                 maxlength="25"
                 placeholder="Add A Categorie:"
+                required
             />
             <input id="click-additem" type="submit" value="submit" />
             </form>

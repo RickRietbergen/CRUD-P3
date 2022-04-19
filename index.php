@@ -371,6 +371,7 @@
             name="fullname"
             maxlength=""
             placeholder="First Name"
+            required
           />
 
           <label id="label__email" for="">email</label>
@@ -380,6 +381,7 @@
             name="email"
             maxlength=""
             placeholder="Example@gmail.com"
+            required
           />
 
           <label id="label__discription" for="discription"
@@ -390,6 +392,7 @@
             name="discription"
             rows="20"
             placeholder="Write something..."
+            required
           ></textarea>
           <input id="click__submit" type="submit" value="submit" />
         </form>
