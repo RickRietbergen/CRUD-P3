@@ -60,7 +60,7 @@
                 id="edit-picture-url"
                 type="text"
                 name="pictureURL"
-                maxlength="25"
+                maxlength=""
                 placeholder="First Name"
                 value="<?php echo $result[0]["picture"]?>"
             />
