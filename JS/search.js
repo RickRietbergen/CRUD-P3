@@ -8,7 +8,7 @@ search_product.addEventListener("input", () => {
             //laat de zoekbalk staan, voert niks uit.
             element.style.display = "";
         }else {
-            //anders, kijk of de children[1](product_name). include de value van wat je opzoekt.
+            //anders, kijk of de children[1](product_name). include de value van wat je opzoekt. Wordt altijd gelezen als lowercase.
             if(element.children[1].innerHTML.toLowerCase().includes(search_product.value.toLowerCase())){
                 //als hij overeen komt, dan laat hij hem zien.
                 element.style.display = "";
