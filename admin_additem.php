@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Item</title>
     <!--link css-->
     <link rel="stylesheet" href="CSS/styles.css"/>
+    <!--icon website-->
+    <link rel="icon" type="image/x-icon" href="Assets/afbeeldingen/snackbarlogo.png">
+    <title>Add Item</title>
 </head>
 <body>
     <?php
@@ -30,7 +32,7 @@
                 class="input-add-item"
                 type="text"
                 name="ID"
-                maxlength="25"
+                maxlength="1"
                 placeholder="Inserted Automatically"
                 readonly
             />
@@ -42,6 +44,7 @@
                 name="name"
                 maxlength="25"
                 placeholder="Add A Product Name:"
+                required
             />
 
             <label id="" for="">Picture URL:</label>
@@ -49,7 +52,7 @@
                 class="input-add-item"
                 type="text"
                 name="picture"
-                maxlength="25"
+                maxlength=""
                 placeholder="Insert A Picture URL:"
             />
 
@@ -60,6 +63,7 @@
                 name="prijs"
                 maxlength="6"
                 placeholder="Add A Price:"
+                required
             />
 
             <label id="" for="">Voorraad:</label>
@@ -69,6 +73,7 @@
                 name="voorraad"
                 maxlength="5"
                 placeholder="Quantity In Stock:"
+                required
             />
 
             <label id="" for="">Categorie:</label>
@@ -78,6 +83,7 @@
                 name="categorie"
                 maxlength="25"
                 placeholder="Add A Categorie:"
+                required
             />
             <input id="click-additem" type="submit" value="submit" />
             </form>

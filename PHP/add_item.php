@@ -20,6 +20,8 @@ $result = $stmt->execute();
 //echo
 echo json_encode($result); 
 
+header("Location: ../admin.php");
+
 exit;
 
 ?>

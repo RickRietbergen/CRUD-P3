@@ -1,53 +1,33 @@
 // const queryString = window.location.search;
 // const urlParams = new URLSearchParams(queryString);
-// const ID = urlParams.get('ID')
+// const ID = urlParams.get('ID');
+const form = document.querySelector("#form");
+const js_fullname = document.querySelector("#input__fullname");
+const js_email = document.querySelector("#input__email");
+const js_message = document.querySelector("#input__discription");
 
-// $(document).ready(function () {
-//   $("#submit").click(function () {
-//     var productName = $("#edit-product-name").val();
-//     var pictureURL = $("#edit-picture-url").val();
-//     var prijs = $("#edit-prijs").val();
-//     var voorraad = $("#edit-voorraad").val();
-//     var categorie = $("#edit-categorie").val();
+function form_verzonden() {
+  /*laat de tekst zien*/
+  alert("Formulier verzonden");
+}
 
-//     if (
-//       productName == "" ||
-//       pictureURL == "" ||
-//       prijs == "" ||
-//       voorraad == "" ||
-//       categorie == ""
-//     ) {
-//       alert("Please fill all fields.");
-//       return false;
-//     }
-//     console.log(productName);
+form.addEventListener("submit", (e) => {
+  console.log(" hoi");
+  e.preventDefault();
 
-//     $.ajax({
-//       type: "POST",
-//       url: "PHP/edit_db.php",
-//       data: {
-//         //edit_db.php , var opgeslagen hierboven.
-//         ID: ID,
-//         product_name: productName,
-//         picture: pictureURL,
-//         prijs: prijs,
-//         voorraad: voorraad,
-//         categorie: categorie,
-//       },
-//       cache: false,
-//       success: function (data) {
-//         alert(data);
-//       },
-//       error: function (xhr, status, error) {
-//         console.error(xhr);
-//       },
-//     });
-//   });
-// });
-
-// add on the bottum of the page
-//  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-//     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous">
-// </script>
-// <script src="JS/submit_contact.js">
-// </script>
+  $.ajax({
+    type: "POST",
+    url: "PHP/submit_contact.php",
+    data: {
+      // ID: ID,
+      name: js_fullname.value,
+      email: js_email.value,
+      message: js_message.value,
+    },
+    cache: false,
+    success: form_verzonden,
+    error: function (xhr, status, error) {
+      console.error(xhr);
+    },
+  });
+});

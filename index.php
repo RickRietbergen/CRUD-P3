@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
+    <!--icon website-->
+    <link rel="icon" type="image/x-icon" href="Assets/afbeeldingen/snackbarlogo.png">
   </head>
   <body>
     <?php
@@ -32,30 +34,26 @@
     ?>
     <main>
       <div class="container__homepage" id="home">
+        <div class="margin-burger-pic">
+
+        </div>
         <div class="burger__pic">
-          <p class="titel">Welkom bij de</p>
-          <p class="titel_name">BigSnack</p>
+          <div class="txt">
+            <p class="titel">Welkom bij de</p>
+            <p class="titel_name">BigSnack</p>
+          </div>
         </div>
       </div>
 
       <div class="container__about" id="about">
         <div class="txt__about__box">
           <div class="txt__title__about">
-            <h2>Title</h2>
+            <h2>Welkom</h2>
           </div>
           <div class="txt__info__about">
             Welkom bij de Big Snack. In deze snackbar maken wij voor u het gerecht wat u wilt. 
             <br>
-            Bekijk onze menukaart op de volgende pagina om uit te kunnen kiezen uit onze gerechten.
-            <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod illum
-            inventore atque. Placeat quod doloremque natus fugit eligendi
-            temporibus cupiditate, at cum, fuga architecto vero, recusandae
-            accusantium ipsam iusto possimus beatae quasi. Id vero molestiae aut
-            quasi. Officia debitis cupiditate voluptatum illum cumque minima
-            laborum provident quasi qui ipsam sed repellat quidem necessitatibus
-            dignissimos neque id et error hic laudantium, dolore ipsum! Nobis
-            tenetur laboriosam, alias voluptates recusandae doloribus? Incidunt
-            fugiat eos illo laboriosam nemo? -->
+            Bekijk onze menukaart op de volgende pagina om uit te kunnen kiezen uit verschillende gerechten.
           </div>
           <div class="txt__pic__about">
             <img src="https://www.bigsnack.nl/themes/plazafood/images/bs-spaarkaart-bg.png" alt="">
@@ -66,7 +64,7 @@
             <img src="Assets/afbeeldingen/bigsnack.png" alt="">
           </div>
           <div class="title__margin__about txt__title__about">
-            <h2>Title</h2>
+            <h2>Spaarkaart</h2>
           </div>
           <div class="txt__info__about">
             Sparen bij Big Snack
@@ -365,14 +363,15 @@
       <div class="container__contact" id="contact">
         <h2>Contact Us</h2>
 
-        <form method="post" action="PHP\submit_contact.php">
+        <form method="post" id="form">
           <label id="label__fullname" for="fullname">Full Name</label>
           <input
             id="input__fullname"
             type="text"
             name="fullname"
-            maxlength="25"
+            maxlength=""
             placeholder="First Name"
+            required
           />
 
           <label id="label__email" for="">email</label>
@@ -382,6 +381,7 @@
             name="email"
             maxlength=""
             placeholder="Example@gmail.com"
+            required
           />
 
           <label id="label__discription" for="discription"
@@ -392,6 +392,7 @@
             name="discription"
             rows="20"
             placeholder="Write something..."
+            required
           ></textarea>
           <input id="click__submit" type="submit" value="submit" />
         </form>
@@ -400,21 +401,12 @@
       <?php
         include_once("includes/footer.php");
       ?>
-
-      <!--
-        laten zien van de database `album`, titels
-        <?php
-          $sql = "SELECT * FROM album";
-          $stmt = $connect->prepare($sql);
-          $stmt->execute();
-          $result = $stmt->fetchALL(); 
-
-          foreach($result as $res)
-          {
-            echo $res['titel']."<br>4";
-          }
-        ?>
-        -->
     </main>
+    <!--link submit_contact, to use .ajax-->
+    <script 
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous">
+    </script>
+    <script src="JS/submit_contact.js"></script>
   </body>
 </html>
