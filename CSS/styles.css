@@ -593,3 +593,173 @@ footer {
 	padding: 10px;
 	margin-top: 30px;
 }
+
+/*responsive*/
+@media only screen and (max-width: 414px) {
+	body {
+		background-color: transparent;
+	}
+	/*header*/
+	header .header {
+		width: 414px;
+	}
+	/*navbar*/
+	nav {
+		display: none;
+	}
+	/*home page*/
+	.container__homepage {
+		background-color: black;
+	}
+	.container__homepage .burger__pic {
+		display: flex;
+		width: 100%;
+		height: 40vh;
+		background-image: url("../Assets/afbeeldingen/snackbarlogo.png");
+		background-attachment: unset;
+	}
+	.txt {
+		padding-top: 750px;
+	}
+	.titel {
+		font-size: 45px;
+	}
+	.titel_name {
+		font-size: 45px;
+		font-weight: normal;
+	}
+	/*about page*/
+	.container__about {
+		height: 150vh;
+		flex-direction: column;
+	}
+	.container__about .txt__title__about {
+		font-size: 30px;
+	}
+	.container__about .txt__about__box {
+		width: 80%;
+		height: 50vh;
+		margin-left: 10%;
+		word-spacing: 1.5px;
+		line-height: 1.5;
+	}
+	/*box for image*/
+	.container__about .txt__about__box .txt__pic__about {
+		width: 350px;
+		height: 200px;
+	}
+	/*img spaarkaart*/
+	.container__about .txt__about__box .txt__pic__about img {
+		position: absolute;
+		width: 325px;
+		margin-top: 280px;
+		margin-left: 7.5px;
+	}
+	.container__about .pic__about__box {
+		width: 80%;
+		height: 50vh;
+		margin-top: 5vh;
+		margin-left: 10%;
+		word-spacing: 1.5px;
+		line-height: 1.5;
+	}
+	/*box for image*/
+	.container__about .pic__about__box .pic__about {
+		width: 375px;
+		height: 375px;
+	}
+	/*img big snack*/
+	.container__about .pic__about__box .pic__about img {
+		position: absolute;
+		width: 350px;
+		margin-top: -230px;
+		margin-left: -7.5px;
+	}
+	/*margin buttom text, to spaarkaart*/
+	.container__about .pic__about__box .title__margin__about {
+		margin-top: -50px;
+	}
+	/*menu page*/
+	.container__menu {
+		width: 100%;
+		height: 100vh;
+	}
+	/*display none(link bar*/
+	.container__menu .div__menu__select {
+		display: none;
+	}
+	/*select categorie*/
+	.container__menu .div__scroll__food {
+		width: 100%;
+		height: 100vh;
+		/* overflow: auto; */
+	}
+	/*title*/
+	.container__menu .div__scroll__food .title__menu {
+		height: 2.5%;
+		margin-bottom: 40px;
+	}
+	.container__menu .div__scroll__food .title__menu h2 {
+		margin-left: 22.5%;
+	}
+	/*food choice*/
+	.container__menu .div__scroll__food section {
+		display: flex;
+		max-width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.container__menu .div__scroll__food section .product {
+		margin: 20px;
+	}
+
+	.container__menu .div__scroll__food section .product p {
+		font-size: 12.5px;
+		text-align: center;
+	}
+
+	.container__menu .div__scroll__food section .product .shoppingCart {
+		display: block;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30px;
+		height: 30px;
+	}
+
+	.container__menu .div__scroll__food section img {
+		display: flex;
+		align-self: center;
+		width: 65px;
+		height: 65px;
+		margin: auto;
+	}
+	/*contact page*/
+	.container__contact form {
+		margin-top: 50px;
+	}
+	.container__contact form #click__submit {
+		width: 20%;
+		padding: 20px;
+		margin-right: 50%;
+	}
+	/*admin login*/
+	.inlog-main {
+		height: 90vh;
+	}
+	.inlog-main h2 {
+		padding-top: 150px;
+	}
+	.inlog-main form label {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.inlog-main form input {
+		width: 70%;
+	}
+	.inlog-main #login-submit {
+		padding: 20px;
+		margin-top: 35px;
+	}
+}
